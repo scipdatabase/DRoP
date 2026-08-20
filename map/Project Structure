@@ -1,0 +1,14 @@
+project/
+│
+├── app/
+│   ├── main.py
+│   ├── map_service.py
+│   ├── data_loader.py
+│   └── config.py
+│
+├── data/
+│   ├── research_locations.csv
+│   └── study_locations.csv
+│
+├── requirements.txt
+└── README.md

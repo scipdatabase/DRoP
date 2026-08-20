@@ -1,0 +1,54 @@
+"Bioproject ID","Host Name","Tissue","Cultivar","Stage","Sample Type","Strain Name","Biosample Accession","SRA Accession","Reference"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Pathogen","SKMPt70","SAMN31221653","SRR21902501","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Pathogen","SKMPt70","SAMN31221652","SRR21902502","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Pathogen","SKMPt70","SAMN31221651","SRR21902503","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Control","SKMPt70","SAMN31221650","SRR21902504","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Control","SKMPt70","SAMN31221649","SRR21902505","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","4 Days after inoculation","Control","SKMPt70","SAMN31221648","SRR21902506","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221647","SRR21902507","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221646","SRR21902508","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221645","SRR21902493","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Control","SKMPt70","SAMN31221644","SRR21902494","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Control","SKMPt70","SAMN31221643","SRR21902495","Mirchandani et al. 2025"
+"PRJNA888832","Cicer arietinum","Root","ICC 4958","2 Days after inoculation","Control","SKMPt70","SAMN31221642","SRR21902496","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221641","SRR21902497","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221640","SRR21902498","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Pathogen","SKMPt70","SAMN31221639","SRR21902499","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Control","SKMPt70","SAMN31221638","SRR21902500","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Control","SKMPt70","SAMN31221637","SRR21902509","Mirchandani et al. 2025"
+"PRJNA888832","Parthenium hysterophorus","Root","-","2 Days after inoculation","Control","SKMPt70","SAMN31221636","SRR21902510","Mirchandani et al. 2025"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394035","SRR15243921","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394034","SRR15243922","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394033","SRR15243923","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Pathogen","ITCC 8635","SAMN20394032","SRR15243924","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Pathogen","ITCC 8635","SAMN20394031","SRR15243926","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Pathogen","ITCC 8635","SAMN20394030","SRR15243927","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought ","ITCC 8635","SAMN20394029","SRR15243928","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought ","ITCC 8635","SAMN20394028","SRR15243929","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Drought ","ITCC 8635","SAMN20394027","SRR15243930","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Control","ITCC 8635","SAMN20394026","SRR15243931","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Control","ITCC 8635","SAMN20394025","SRR15243932","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","6 Days after sowing","Control","ITCC 8635","SAMN20394024","SRR15243933","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394023","SRR15243934","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394022","SRR15243935","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought and Pathogen","ITCC 8635","SAMN20394021","SRR15243914","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Pathogen","ITCC 8635","SAMN20394020","SRR15243915","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Pathogen","ITCC 8635","SAMN20394019","SRR15243916","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Pathogen","ITCC 8635","SAMN20394018","SRR15243917","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought ","ITCC 8635","SAMN20394017","SRR15243918","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought ","ITCC 8635","SAMN20394016","SRR15243919","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Drought ","ITCC 8635","SAMN20394015","SRR15243920","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Control","ITCC 8635","SAMN20394014","SRR15243925","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Control","ITCC 8635","SAMN20394013","SRR15243936","Irulappan et al. 2022"
+"PRJNA749609","Cicer arietinum","Root","JG62","3 Days after sowing","Control","ITCC 8635","SAMN20394012","SRR15243937","Irulappan et al. 2022"
+"PRJNA428521 ","Fragaria × ananassa","-","-","culture grown for 7 days","Pathogen","M11-12","SAMN09699095","SRR7548089",NULL
+"PRJNA428521 ","Fragaria × ananassa","-","-","culture grown at 15°C","Pathogen","M11-12","SAMN09699094","SRR7548088",NULL
+"PRJNA428521 ","Fragaria × ananassa","-","-","culture grown at 35°C","Pathogen","M11-12","SAMN09699092","SRR7548086",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown on ammonium-based media","Pathogen","M11-12","SAMN09699091","SRR7548085",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown under 24-hour light","Pathogen","M11-12","SAMN09699093","SRR7548087",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown at pH 3.5","Pathogen","M11-12","SAMN09699089","SRR7548083",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown at pH 8.0","Pathogen","M11-12","SAMN09699088","SRR7548082",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown in media with 2% NaCl","Pathogen","M11-12","SAMN09699097","SRR7548081",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown in media with 4% NaCl","Pahtogen","M11-12","SAMN09699096","SRR7548080",NULL
+"PRJNA428521","Fragaria × ananassa","-","-","culture grown on crown-based media","Pahtogen","M11-12","SAMN09699090","SRR7548084",NULL
+NULL,"Cicer arietinum","Root","JG62","1 hour and 24 hours","Pathogen, Water stress pathogen, and Control","Mp1_Dharwad",NULL,NULL,"Mali, K. V. (2024). Studies on Rhizoctonia bataticola–chickpea interaction under drought stress (Doctoral dissertation). http://hdl.handle.net/10603/688611"

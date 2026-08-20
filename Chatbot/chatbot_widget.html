@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Chat Button */
+        #chatBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 12px 25px;
+            border-radius: 50px;
+            background: #0d6efd;
+            color: white;
+            border: none;
+            cursor: pointer;
+            z-index: 1001;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            font-family: sans-serif;
+        }
+
+        /* Chat Window Container */
+        #chatContainer {
+            position: fixed;
+            bottom: 85px;
+            right: 20px;
+            width: 340px;
+            height: 500px;
+            display: none;
+            flex-direction: column;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            z-index: 1000;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            animation: slideUp 0.3s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Chat Body */
+        #chatBody {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Message Bubbles */
+        .msg {
+            padding: 8px 12px;
+            border-radius: 12px;
+            max-width: 80%;
+            font-size: 0.9rem;
+            word-wrap: break-word;
+        }
+
+        .bot {
+            align-self: flex-start;
+            background: #e9ecef;
+            color: #333;
+        }
+
+        .user {
+            align-self: flex-end;
+            background: #0d6efd;
+            color: white;
+        }
+
+        /* Sources tag styling */
+        .sources-tag {
+            display: block;
+            margin-top: 6px;
+            font-size: 0.75rem;
+            color: #666;
+            border-top: 1px solid #ccc;
+            padding-top: 4px;
+        }
+
+        /* Suggestions Section */
+        #suggestions {
+            padding: 10px;
+            background: #fff;
+            border-top: 1px solid #eee;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .suggest-btn {
+            background: #e7f1ff;
+            color: #0d6efd;
+            border: 1px solid #0d6efd;
+            border-radius: 20px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .suggest-btn:hover {
+            background: #0d6efd;
+            color: white;
+        }
+
+        #chatFooter {
+            padding: 10px;
+            border-top: 1px solid #eee;
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="chatBtn"><strong>💬 ChatBot</strong></button>
+
+    <div id="chatContainer">
+        <div id="chatHeader" style="background:#0d6efd; color:white; padding:15px; display:flex; justify-content:space-between; align-items:center;">
+            <span><strong>DROP Assistant 🤖</strong></span>
+            <span id="closeChat" style="cursor:pointer; font-size: 1.2rem;">&times;</span>
+        </div>
+
+        <div id="chatBody"></div>
+
+        <div id="suggestions">
+            <button class="suggest-btn" onclick="sendSuggestion('What is DRR?')">What is DRR?</button>
+            <button class="suggest-btn" onclick="sendSuggestion('Symptoms')">Symptoms</button>
+            <button class="suggest-btn" onclick="sendSuggestion('Management')">Management</button>
+        </div>
+        <div style="text-align:center; font-size:12px; color:#888; margin-top:8px;">
+            ⚠️ AI-generated responses may contain errors. Please verify information.
+        </div>
+
+        <div id="chatFooter">
+            <input type="text" id="chatInput" placeholder="Type your question here..." autocomplete="off" style="width:100%; border:none; outline:none;">
+        </div>
+    </div>
+
+    <script>
+        const chatBtn = document.getElementById("chatBtn");
+        const chatContainer = document.getElementById("chatContainer");
+        const closeChat = document.getElementById("closeChat");
+        const chatInput = document.getElementById("chatInput");
+        const chatBody = document.getElementById("chatBody");
+
+        // ✅ FIXED: Correct API base URL pointing to your FastAPI server
+        const API_URL = "http://223.31.159.3/chatbot/ask";
+
+        // Logic to show/hide chat
+        chatBtn.onclick = () => chatContainer.style.display = "flex";
+        closeChat.onclick = () => chatContainer.style.display = "none";
+
+        // Initial welcome message on load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                chatContainer.style.display = "flex";
+                addMessage("bot", "Hello 👋 I am your DROP assistant. How can I help you today?");
+            }, 500);
+        });
+
+        // Handle Input
+        chatInput.addEventListener("keypress", (e) => {
+            if (e.key === "Enter" && chatInput.value.trim() !== "") {
+                sendMessage(chatInput.value.trim());
+                chatInput.value = "";
+            }
+        });
+
+        function sendSuggestion(text) {
+            sendMessage(text);
+        }
+
+        function sendMessage(text) {
+            addMessage("user", text);
+
+            // Show typing indicator
+            const typingId = "typing-" + Date.now();
+            addMessage("bot", "<i>Typing...</i>", typingId);
+
+            // ✅ FIXED: Correct endpoint /ask and correct request body {question}
+            fetch(API_URL, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        question: text   // ✅ matches FastAPI AskRequest schema
+                    })
+                })
+                .then(res => {
+                    if (!res.ok) {
+                        throw new Error("Server returned status " + res.status);
+                    }
+                    return res.json();
+                })
+                .then(data => {
+                    document.getElementById(typingId).remove();
+
+                    // ✅ FIXED: data.answer matches AskResponse from api_server.py
+                    let html = data.answer;
+
+                    // Optionally show sources if available
+                    if (data.sources && data.sources.length > 0) {
+                        html += `<span class="sources-tag">📚 ${data.sources.join(' · ')}</span>`;
+                    }
+
+                    addMessage("bot", html);
+                })
+                .catch(err => {
+                    document.getElementById(typingId).innerHTML =
+                        "⚠️ Sorry, I can't reach the server right now. Please make sure the API server is running.";
+                    console.error("Fetch Error:", err);
+                });
+        }
+
+        function addMessage(sender, text, id = null) {
+            const msgDiv = document.createElement("div");
+            msgDiv.className = `msg ${sender}`;
+            if (id) msgDiv.id = id;
+            msgDiv.innerHTML = text;
+            chatBody.appendChild(msgDiv);
+
+            // Auto-scroll to bottom
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+    </script>
+</body>
+
+</html>

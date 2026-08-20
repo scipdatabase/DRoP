@@ -1,0 +1,531 @@
+research_location,institution,province,latitude,longitude,avg_annual_rainfall_mm,estimated_drr_incidence_percent,risk_class,agro_climatic_zone,country
+Badghis,Badghis Dry Farming Research Unit,Badghis,35.1671,63.7695,210,20.5,Very High,Northwestern Dry Steppe,Afghanistan
+Baghlan,Baghlan Dryland Research Platform,Baghlan,36.1307,68.7083,270,14.5,High,Central Northern Plains,Afghanistan
+Mazar-i-Sharif,Balkh Agricultural Research Farm,Balkh,36.7069,67.1122,220,18,High,Northern Semi-Arid Plains,Afghanistan
+Bamyan,Bamyan Highland Agricultural Station,Bamyan,34.8216,67.8273,280,8,Moderate,Cold Highland Zone,Afghanistan
+Farah,Farah Desert Agriculture Research Farm,Farah,32.3745,62.1164,110,28,Very High,Hyper-Arid Desert Fringe,Afghanistan
+Faryab,Faryab Agricultural Research Farm,Faryab,36.0796,64.9052,230,18.5,High,Northwestern Semi-Arid Plains,Afghanistan
+Ghazni,Ghazni Agricultural Adaptation Center,Ghazni,33.5451,68.4174,300,10.5,Moderate,Central Highland Plateau,Afghanistan
+Helmand,Helmand Irrigated Agriculture Station,Helmand,31.5796,64.3692,95,30,Very High,Hot Arid Basin,Afghanistan
+Herat,Herat Agricultural Research Center,Herat,34.3529,62.204,240,17.5,High,Western Dry Plateau,Afghanistan
+Kabul,Agricultural Research Institute of Afghanistan (ARIA),Kabul,34.5553,69.2075,330,11,Moderate,Highland Semi-Arid Zone,Afghanistan
+Kandahar,Kandahar Dryland Agriculture Research Farm,Kandahar,31.6289,65.7372,180,24,Very High,Arid Southern Plains,Afghanistan
+Khost,Khost Agricultural Research Center,Khost,33.3395,69.9204,560,5.5,Low,Humid Foothill Zone,Afghanistan
+Kunduz,Kunduz Pulse Research Station,Kunduz,36.7289,68.857,310,12.5,Moderate,Northeastern Irrigated Plains,Afghanistan
+Jalalabad,Nangarhar Agricultural Research Station,Nangarhar,34.4342,70.4477,260,19.5,High,Eastern Dry Valley,Afghanistan
+Paktia,Paktia Rainfed Agriculture Research Unit,Paktia,33.7061,69.3831,420,7.5,Low,Mountain Rainfed Zone,Afghanistan
+Samangan,Samangan Pulse Research Farm,Samangan,36.315,67.964,250,16.5,High,Northern Dry Plateau,Afghanistan
+Takhar,Takhar Pulse Improvement Farm,Takhar,36.7361,69.5345,360,9,Moderate,Northeastern Agro-Ecology,Afghanistan
+Uruzgan,Uruzgan Dryland Chickpea Station,Uruzgan,32.9278,66.6325,170,25,Very High,Arid Highland Basin,Afghanistan
+Wardak,Maidan Wardak Highland Research Station,Wardak,34.3956,68.8662,340,9.5,Moderate,Central Highland Zone,Afghanistan
+Zabul,Zabul Agricultural Stress Research Site,Zabul,32.1919,67.1894,160,26,Very High,Southern Arid Zone,Afghanistan
+Bumthang,Bumthang Highland Agriculture Station,Bumthang,27.5495,90.7525,720,2,Low,Cool Alpine Valley,Bhutan
+Chukha,Chukha Dryland Research Site,Chukha,27,89.55,2400,5.5,Low,Southwestern Mountain Zone,Bhutan
+Phuentsholing,Lowland Agriculture Research Farm,Chukha,26.85,89.3833,3200,7,Moderate,Subtropical Lowland Zone,Bhutan
+Dagana,Dagana Rainfed Farming Research Site,Dagana,27.0322,89.8767,2400,5.5,Low,Southwestern Humid Zone,Bhutan
+Gasa,Gasa Highland Climate Research Farm,Gasa,27.9037,89.7269,950,1.5,Low,High Himalayan Alpine Zone,Bhutan
+Haa,Haa Highland Agricultural Station,Haa,27.3875,89.28,690,2.5,Low,Cold Highland Ecology,Bhutan
+Lhuentse,Lhuentse Mountain Agriculture Research Unit,Lhuentse,27.6679,91.1839,1450,3.5,Low,Northeastern Mountain Zone,Bhutan
+Mongar,Mongar Renewable Natural Resources Centre,Mongar,27.2747,91.2396,1650,4.5,Low,Eastern Mid-Hill Zone,Bhutan
+Paro,Renewable Natural Resources Research Centre,Paro,27.4286,89.4164,760,4,Low,Temperate Highland Zone,Bhutan
+Pemagatshel,Pemagatshel Rainfed Agriculture Platform,Pemagatshel,27.0379,91.4031,1900,4.5,Low,Humid Eastern Hills,Bhutan
+Punakha,Punakha Agriculture Research Station,Punakha,27.5916,89.877,1450,2.5,Low,Subtropical River Valley,Bhutan
+Samdrup Jongkhar,Samdrup Jongkhar Agricultural Station,Samdrup Jongkhar,26.8,91.5,2200,6,Moderate,Eastern Humid Foothills,Bhutan
+Samtse,Samtse Agricultural Research Station,Samtse,26.9,89.1,3500,7.5,Moderate,Humid Southern Foothills,Bhutan
+Sarpang,Gelephu Agriculture Research Center,Sarpang,26.882,90.478,1850,5.5,Low,Humid Subtropical Foothills,Bhutan
+Thimphu,National Centre for Organic Agriculture,Thimphu,27.4728,89.639,820,3.5,Low,Cool Himalayan Valley,Bhutan
+Trashigang,Trashigang Agriculture Research Farm,Trashigang,27.3333,91.55,1780,4,Low,Eastern Himalayan Hills,Bhutan
+Trongsa,Trongsa Dryland Agriculture Research Platform,Trongsa,27.5,90.5,1180,3.5,Low,Central Mountain Zone,Bhutan
+Tsirang,Tsirang Sustainable Agriculture Center,Tsirang,27.0219,90.1226,2100,5,Low,Humid Subtropical Zone,Bhutan
+Wangdue Phodrang,Wangdue Dryland Farming Research Unit,Wangdue Phodrang,27.4861,89.8991,1320,3,Low,Inner Himalayan Valley,Bhutan
+Zhemgang,Zhemgang Agroecology Research Station,Zhemgang,27.2169,90.6579,2600,6.5,Moderate,Humid Forest Transition Zone,Bhutan
+Anantapuramu,Regional Agricultural Research Station,Andhra Pradesh,14.6819,77.6006,560,28,Very High,Scarce Rainfall Zone,India
+Guntur,Regional Agricultural Research Station ANGRAU Lam,Andhra Pradesh,16.3067,80.4365,850,12.5,Moderate,Krishna-Godavari Zone,India
+Kadapa,Yogi Vemana University,Andhra Pradesh,14.4673,78.8242,705,20.5,High,Rayalaseema Dry Zone,India
+Kurnool,Dryland Agricultural Research Farm,Andhra Pradesh,15.8281,78.0373,640,24.5,Very High,Southern Dry Zone,India
+Tirupati,Sri Venkateswara Agricultural College,Andhra Pradesh,13.6288,79.4192,920,11.5,Moderate,Southern Agro-Climatic Zone,India
+Bhagalpur,Bihar Agricultural University Sabour,Bihar,25.2425,87.0436,1180,5.5,Low,Middle Gangetic Plains,India
+Pusa,Dr. Rajendra Prasad Central Agricultural University,Bihar,25.98,85.67,1180,5.5,Low,Middle Gangetic Plains,India
+Raipur,Indira Gandhi Krishi Vishwavidyalaya,Chhattisgarh,21.2514,81.6296,1220,6.5,Low,Eastern Plateau,India
+Rajnandgaon,Dryland Pulse Research Station,Chhattisgarh,21.0974,81.033,1080,8,Moderate,Chhattisgarh Plains,India
+New Delhi,ICAR National Bureau of Plant Genetic Resources,Delhi,28.6408,77.1585,790,10.5,Moderate,Upper Indo-Gangetic Plains,India
+New Delhi,Indian Agricultural Research Institute IARI,Delhi,28.6391,77.16,790,11,Moderate,Upper Indo-Gangetic Plains,India
+New Delhi,National Institute of Plant Genome Research,Delhi,28.6139,77.209,790,11.5,Moderate,Upper Indo-Gangetic Plains,India
+Pusa,National Bureau of Agriculturally Important Microorganisms,Delhi,28.639,77.152,780,12.5,Moderate,Semi-Arid Indo-Gangetic Zone,India
+Pusa,National Centre for Integrated Pest Management,Delhi,28.638,77.155,780,11.5,Moderate,Semi-Arid Indo-Gangetic Zone,India
+Pusa,National Research Centre on Plant Biotechnology IARI,Delhi,28.6392,77.1525,780,12,Moderate,Semi-Arid Indo-Gangetic Zone,India
+Amreli,College of Agriculture Junagadh Agricultural University,Gujarat,21.6032,71.2221,760,15.5,High,Saurashtra Agro-Climatic Zone,India
+Anand,Anand Agricultural University,Gujarat,22.5645,72.9289,820,12.5,Moderate,Middle Gujarat Plains,India
+Anand,ICAR Directorate of Medicinal and Aromatic Plants Research,Gujarat,22.556,72.951,820,11.5,Moderate,Middle Gujarat Plains,India
+Junagadh,Junagadh Agricultural University,Gujarat,21.5222,70.4579,840,14.5,High,Saurashtra Agro-Climatic Zone,India
+Navsari,N M College of Agriculture Navsari Agricultural University,Gujarat,20.9467,72.952,1650,4,Low,South Gujarat Humid Zone,India
+Gurgaon,Amity Institute of Biotechnology Amity University Haryana,Haryana,28.4595,77.0266,610,16.5,High,Trans-Gangetic Plains,India
+Hisar,CCS Haryana Agricultural University,Haryana,29.1492,75.7217,480,24,Very High,Western Dry Zone,India
+Kurukshetra,Kurukshetra University,Haryana,29.9695,76.8783,620,13,Moderate,Upper Indo-Gangetic Plains,India
+Palampur,CSK Himachal Pradesh Agricultural University,Himachal Pradesh,32.1107,76.5364,2500,2.5,Low,Humid Mid-Hill Zone,India
+Shimla,ICAR NBPGR Regional Station,Himachal Pradesh,31.1048,77.1734,1450,3.5,Low,Western Himalayan Zone,India
+Solan,Dr. YS Parmar University of Horticulture and Forestry,Himachal Pradesh,30.9045,77.0967,1260,3.5,Low,Mid-Hill Zone,India
+Jammu,Dryland Research Substation Jammu,Jammu and Kashmir,32.7266,74.857,1110,5.5,Low,Subtropical Foothills,India
+Rajouri,RARS and KVK SKUAST Jammu,Jammu and Kashmir,33.3753,74.315,980,6.5,Low,Sub-Humid Foothills,India
+Srinagar,Sher-e-Kashmir University of Agricultural Sciences,Jammu and Kashmir,34.0837,74.7973,720,7,Moderate,Temperate Himalayan Zone,India
+Ranchi,Birsa Agricultural University,Jharkhand,23.3441,85.3096,1400,5,Low,Chotanagpur Plateau,India
+Ballari,Dryland Agriculture Research Farm,Karnataka,15.1394,76.9214,590,26,Very High,Central Dry Zone,India
+Bangalore,University of Agricultural Sciences GKVK,Karnataka,13.0827,77.579,970,9.5,Moderate,Eastern Dry Zone,India
+Dharwad,ICAR IARI Regional Research Center,Karnataka,15.4589,75.0078,760,14,High,Transition Agro-Climatic Zone,India
+Kalaburagi,Kalaburagi Pulse Research Station,Karnataka,17.3297,76.8343,780,18.5,High,North Karnataka Dry Zone,India
+Mandya,Sampoorna International Institute of Agri Sciences,Karnataka,12.5218,76.8951,720,12,Moderate,Cauvery Command Zone,India
+Mysuru,Central Sericultural Research and Training Institute,Karnataka,12.2958,76.6394,780,10.5,Moderate,Southern Transition Zone,India
+Raichur,University of Agricultural Sciences Raichur,Karnataka,16.2076,77.3463,620,25.5,Very High,North Eastern Dry Zone,India
+Tumakuru,Krishi Vigyan Kendra Tumakuru,Karnataka,13.3409,77.101,690,19,High,Southern Dry Zone,India
+Vijayapura,College of Agriculture UAS Dharwad,Karnataka,16.8302,75.71,580,24.5,Very High,Northern Dry Zone,India
+Amlaha,ICARDA South Asia Hub,Madhya Pradesh,23.02,77.09,930,11.5,Moderate,Central Plateau,India
+Gwalior,Central Institute of Agricultural Engineering Field Unit,Madhya Pradesh,26.2183,78.1828,760,16.5,High,North Madhya Plateau,India
+Harda,Krishi Vigyan Kendra Harda,Madhya Pradesh,22.3441,77.0955,980,10,Moderate,Narmada Valley,India
+Jabalpur,Jawaharlal Nehru Krishi Vishwa Vidyalaya,Madhya Pradesh,23.1815,79.9864,1080,8.5,Moderate,Kymore Plateau,India
+Rajgarh,Rajgarh Dryland Pulse Station,Madhya Pradesh,23.8687,76.7325,820,14,High,Malwa Plateau,India
+Satna,Baghelkhand Agricultural Research Farm,Madhya Pradesh,24.6005,80.8322,890,13,Moderate,Vindhyan Plateau,India
+Sehore,ICARDA South Asia Hub,Madhya Pradesh,23.2035,77.0849,920,11,Moderate,Central Plateau,India
+Akola,Dr. Panjabrao Deshmukh Krishi Vidyapeeth,Maharashtra,20.7002,77.0082,850,15.5,High,Vidarbha Dry Zone,India
+Jalna,Marathwada Dryland Research Station,Maharashtra,19.8347,75.8816,690,21,Very High,Semi-Arid Plateau,India
+Latur,Latur Pulse Research Farm,Maharashtra,18.4088,76.5604,670,24,Very High,Scarcity Zone,India
+Nagpur,Dr Panjabrao Deshmukh Krishi Vidyapeeth,Maharashtra,21.1458,79.0882,1060,9.5,Moderate,Vidarbha Zone,India
+Parbhani,College of Agriculture Marathwada Krishi Vidyapeeth,Maharashtra,19.27,76.78,810,17.5,High,Central Maharashtra Plateau,India
+Parbhani,Vasantrao Naik Marathwada Krishi Vidyapeeth,Maharashtra,19.2649,76.7712,810,17,High,Central Maharashtra Plateau,India
+Pune,Indian Institute for Science Education and Research,Maharashtra,18.5204,73.8567,720,14.5,High,Western Maharashtra Plateau,India
+Rahuri,Mahatma Phule Krishi Vidyapeeth,Maharashtra,19.39,74.65,560,23.5,Very High,Rain Shadow Zone,India
+Yavatmal,Vidarbha Rainfed Agriculture Center,Maharashtra,20.3899,78.1307,930,12,Moderate,Central Vidarbha Zone,India
+Umiam,ICAR Research Complex for NEH Region,Meghalaya,25.6638,91.895,2450,2,Low,Humid Hill Zone,India
+Bhubaneswar,Odisha University of Agriculture and Technology,Odisha,20.2961,85.8245,1450,4,Low,Eastern Coastal Plains,India
+Sambalpur,Regional Research and Technology Transfer Station,Odisha,21.4669,83.9812,1280,6.5,Low,Western Undulating Zone,India
+Bathinda,Guru Kashi University Talwandi Sabo,Punjab,29.9491,75.0934,420,22,Very High,Southwestern Dry Plains,India
+Ludhiana,Punjab Agricultural University,Punjab,30.901,75.8573,720,8,Moderate,Trans-Gangetic Plains,India
+Bikaner,College of Agriculture Rajasthan Agricultural University,Rajasthan,28.0229,73.3119,280,32,Very High,Hyper-Arid Desert,India
+Bikaner,Swami Keshwanand Rajasthan Agricultural University,Rajasthan,28.03,73.3,280,31.5,Very High,Hot Arid Desert,India
+Jaipur,Jagan Nath University Chaksu,Rajasthan,26.605,75.948,560,21.5,High,Semi-Arid Eastern Plains,India
+Jaipur,Rajasthan Agricultural Research Institute,Rajasthan,26.9124,75.7873,540,27.5,Very High,Arid Western Plains,India
+Jobner,Shri Karan Narendra College of Agriculture,Rajasthan,26.972,75.387,540,25.5,Very High,Arid Western Plains,India
+Jodhpur,ICAR Central Arid Zone Research Institute,Rajasthan,26.2389,73.0243,320,31,Very High,Hot Arid Desert,India
+Kota,Agricultural Research Station Kota,Rajasthan,25.2138,75.8648,760,15,High,Humid Southeastern Plain,India
+Nagaur,College of Agriculture AU Jodhpur,Rajasthan,27.1991,73.7333,340,28.5,Very High,Arid Interior Plains,India
+Coimbatore,TNAU Coimbatore,Tamil Nadu,11.0168,76.9558,690,16,High,Western Agro-Climatic Zone,India
+Kudumiyanmalai,Agricultural College and Research Institute TNAU,Tamil Nadu,10.46,78.75,860,11.5,Moderate,Southern Dry Zone,India
+Tiruchirappalli,Bharathidasan University,Tamil Nadu,10.7905,78.7047,870,10.5,Moderate,Cauvery Delta Transition Zone,India
+Vellore,Agricultural Research Station TNAU Virinjipuram,Tamil Nadu,12.9165,79.1325,920,10,Moderate,Northeastern Zone,India
+Adilabad,Regional Agricultural Research Station,Telangana,19.6641,78.532,1040,9.5,Moderate,Northern Telangana Zone,India
+Hyderabad,Acharya NG Ranga Agricultural University,Telangana,17.385,78.4867,780,15.5,High,Deccan Plateau,India
+Hyderabad,ICAR CRIDA,Telangana,17.32,78.4,760,18.5,High,Central Dryland Zone,India
+Hyderabad,Osmania University,Telangana,17.4138,78.5283,780,13,Moderate,Urban Semi-Arid Zone,India
+Hyderabad,Professor Jayashankar Telangana State Agricultural University,Telangana,17.385,78.4867,780,16.5,High,Deccan Plateau,India
+Mahboobnagar,Palem Agricultural Research Station,Telangana,16.7488,77.9854,640,22.5,Very High,Southern Telangana Dry Zone,India
+Patancheru,International Crops Research Institute for the Semi-Arid Tropics (ICRISAT),Telangana,17.5302,78.271,720,18,High,Deccan Semi-Arid Tropics,India
+Rajendranagar,Directorate of Oilseed Research,Telangana,17.32,78.4,760,17.5,High,Semi-Arid Deccan Zone,India
+Lembucherra,ICAR Research Complex for NEH Region Tripura Centre,Tripura,23.94,91.31,2250,3,Low,Humid Northeastern Plains,India
+Aligarh,Aligarh Muslim University,Uttar Pradesh,27.8974,78.088,760,13.5,Moderate,Upper Gangetic Plains,India
+Ayodhya,Acharya Narendra Deva University of Agriculture and Technology,Uttar Pradesh,26.799,82.204,1120,6.5,Low,Eastern Indo-Gangetic Plains,India
+Jhansi,Rani Lakshmi Bai Central Agricultural University,Uttar Pradesh,25.4484,78.5685,860,15,High,Bundelkhand Dry Zone,India
+Kanpur,CSA University of Agriculture and Technology,Uttar Pradesh,26.4499,80.3319,910,10.5,Moderate,Central Plains,India
+Maunath Bhanjan,ICAR National Bureau of Agriculturally Important Microorganisms,Uttar Pradesh,25.9417,83.5611,1020,7,Low,Eastern Plains,India
+Meerut,Chaudhary Charan Singh University,Uttar Pradesh,28.9845,77.7064,845,10,Moderate,Upper Gangetic Plains,India
+Meerut,Sardar Vallabhbhai Patel University of Agriculture and Technology,Uttar Pradesh,28.9845,77.7064,845,9.5,Moderate,Upper Gangetic Plains,India
+Prayagraj,Naini Agricultural Institute SHUATS,Uttar Pradesh,25.4358,81.8463,980,8,Moderate,Middle Gangetic Plains,India
+Varanasi,Banaras Hindu University,Uttar Pradesh,25.3176,82.9739,1110,7.5,Low,Eastern Indo-Gangetic Plains,India
+Pantnagar,G.B. Pant University of Agriculture and Technology,Uttarakhand,29.0222,79.49,1380,3.5,Low,Tarai Humid Zone,India
+Bolpur,Palli Siksha Bhavana Visva Bharati,West Bengal,23.6683,87.6828,1380,4.5,Low,Lateritic Agro-Ecology,India
+Kalyani,Bidhan Chandra Krishi Viswavidyalaya,West Bengal,22.975,88.4345,1480,3,Low,Gangetic Delta,India
+Karaj,Seed & Plant Improvement Institute,Alborz,35.84,50.9391,250,13.5,High,Semi-Arid Plateau,Iran
+Bushehr,Bushehr Research Station,Bushehr,28.9234,50.8203,220,15.5,High,Coastal Arid,Iran
+Shahrekord,Chaharmahal & Bakhtiari Station,Chaharmahal & Bakhtiari,32.3256,50.8644,620,5,Low,Zagros Highlands,Iran
+Tabriz,East Azerbaijan Agricultural Station,East Azerbaijan,38.0962,46.2738,290,9,Moderate,Cold Semi-Arid,Iran
+Shiraz,Fars Agricultural Research Center,Fars,29.5918,52.5837,310,10,Moderate,Semi-Arid Plateau,Iran
+Rasht,Caspian Rice & Crop Research Center,Gilan,37.2808,49.5832,1350,1.5,Low,Humid Caspian Coast,Iran
+Gorgan,Golestan Agricultural Research Center,Golestan,36.8427,54.4436,600,4.5,Low,Humid Transition Zone,Iran
+Hamadan,Western Dryland Research Center,Hamadan,34.7983,48.5146,330,8.5,Moderate,Highland Semi-Arid,Iran
+Bandar Abbas,Hormozgan Agricultural Station,Hormozgan,27.1832,56.2666,170,18.5,Very High,Hot Arid Coast,Iran
+Ilam,Ilam Agricultural Research Station,Ilam,33.6374,46.4227,580,5.5,Low,Western Highlands,Iran
+Isfahan,Isfahan Agricultural Research Center,Isfahan,32.6546,51.668,120,22,Very High,Arid Interior Basin,Iran
+Kashan,Desert Agriculture Research Site,Isfahan,33.985,51.409,130,21,Very High,Arid Interior Basin,Iran
+Kerman,Kerman Dryland Research Center,Kerman,30.2839,57.0834,140,21.5,Very High,Desert Margin,Iran
+Kermanshah,Zagros Research Station,Kermanshah,34.3142,47.065,450,7.5,Moderate,Mountainous Zone,Iran
+Abadan,Khuzestan Coastal Station,Khuzestan,30.3744,48.247,200,16,High,Hot Coastal Plain,Iran
+Ahvaz,Khuzestan Agricultural Research Center,Khuzestan,31.3183,48.6706,230,14.5,High,Hot Lowland Plain,Iran
+Yasuj,Kohgiluyeh & Boyer-Ahmad Research Center,Kohgiluyeh & Boyer-Ahmad,30.6682,51.5879,780,4,Low,Humid Mountain Zone,Iran
+Arak,Markazi Dryland Research Station,Markazi,34.0917,49.6892,285,9.5,Moderate,Central Plateau Edge,Iran
+Sari,Mazandaran Agricultural Research Center,Mazandaran,36.5633,53.0601,850,2.8,Low,Humid Forest Zone,Iran
+Qom,Qom Agricultural Research Station,Qom,34.6416,50.8746,140,19.5,Very High,Desert Fringe,Iran
+Mashhad,Khorasan Agricultural Research Center,Razavi Khorasan,36.2605,59.6168,250,15,High,Semi-Arid Northeast,Iran
+Semnan,Semnan Dry Farming Research Center,Semnan,35.5769,53.392,110,23,Very High,Arid Plateau,Iran
+Zabol,Sistan Agricultural Research Station,Sistan & Baluchestan,31.03,61.49,80,27,Very High,Hyper-Arid,Iran
+Zahedan,Baluchestan Research Center,Sistan & Baluchestan,29.4963,60.8629,83,26.5,Very High,Arid Southeast,Iran
+Birjand,South Khorasan Research Station,South Khorasan,32.8663,59.2211,145,20,Very High,Arid Eastern Plateau,Iran
+Tehran,Plant Protection Research Institute,Tehran,35.6892,51.389,230,14,High,Central Plateau,Iran
+Urmia,West Azerbaijan Research Station,West Azerbaijan,37.5527,45.076,360,7,Moderate,NW Highland Zone,Iran
+Yazd,Yazd Agricultural Research Station,Yazd,31.8974,54.3569,65,26,Very High,Hyper-Arid Desert,Iran
+Hinthada,Hinthada Pulse Research Farm,Ayeyarwady,17.6494,95.457,2860,2,Low,Lower Delta Plains,Myanmar
+Pathein,Ayeyarwady Delta Research Station,Ayeyarwady,16.7792,94.7321,3120,1.5,Low,Humid Coastal Delta,Myanmar
+Bago,Bago Agricultural Research Center,Bago,17.3364,96.4797,1320,8,Moderate,Southern Transition Zone,Myanmar
+Pyay,Pyay Pulse Research Station,Bago,18.8165,95.2222,1180,9.5,Moderate,Central Transition Ecology,Myanmar
+Taungoo,Taungoo Dryland Agriculture Research Site,Bago,18.9429,96.4341,1450,6.5,Low,Sub-Humid Plains,Myanmar
+Hakha,Chin Hills Agriculture Research Station,Chin,22.6445,93.6108,1880,4,Low,Mountain Rainfed Ecology,Myanmar
+Myitkyina,Kachin Agricultural Research Farm,Kachin,25.3833,97.4,2250,3,Low,Northern Humid Highlands,Myanmar
+Loikaw,Kayah Agricultural Research Farm,Kayah,19.6748,97.2099,1420,5,Low,Mountain Plateau Ecology,Myanmar
+Hpa-An,Kayin State Dryland Agriculture Unit,Kayin,16.8895,97.6348,3650,1.5,Low,Humid Foothill Zone,Myanmar
+Magway,Magway Dryland Farming Research Station,Magway,20.1496,94.9326,640,23.5,Very High,Hot Semi-Arid Plains,Myanmar
+Pakokku,Pakokku Pulse Research Farm,Magway,21.3349,95.0844,610,24,Very High,Inner Dry Zone,Myanmar
+Mandalay,Central Dry Zone Agricultural Research Center,Mandalay,21.9588,96.0891,780,18,High,Central Dry Zone,Myanmar
+Mawlamyine,Mon State Agricultural Research Unit,Mon,16.4905,97.6283,5200,0.8,Low,Tropical Coastal Rainforest,Myanmar
+Naypyidaw,Yezin Agricultural University,Naypyidaw,19.7633,96.0785,920,13.5,High,Semi-Arid Central Basin,Myanmar
+Yezin,Department of Agricultural Research (DAR),Naypyidaw,19.8415,96.2735,890,14.5,High,Central Dry Zone Transition,Myanmar
+Sittwe,Rakhine Coastal Agriculture Center,Rakhine,20.1462,92.8984,4750,1,Low,Coastal Humid Belt,Myanmar
+Monywa,Chickpea and Pulse Research Platform,Sagaing,22.1086,95.1358,690,20.5,Very High,Dry Central Basin,Myanmar
+Sagaing,Sagaing Agricultural Research Farm,Sagaing,21.8787,95.9797,720,19.5,High,Northern Dry Plains,Myanmar
+Shwebo,Shwebo Agricultural Research Unit,Sagaing,22.5786,95.698,760,17.5,High,Upper Dry Zone,Myanmar
+Kengtung,Kengtung Highland Agriculture Station,Shan,21.286,99.617,1680,4.5,Low,Eastern Humid Highlands,Myanmar
+Lashio,Northern Shan Dryland Research Station,Shan,22.9359,97.7498,1280,7,Low,Mountain Transition Zone,Myanmar
+Taunggyi,Shan State Agricultural Research Center,Shan,20.7892,97.0378,1560,5.5,Low,Eastern Highland Zone,Myanmar
+Dawei,Tanintharyi Agriculture Research Station,Tanintharyi,14.0823,98.1915,4550,1.2,Low,Humid Coastal Peninsula,Myanmar
+Yangon,Yangon Agricultural University,Yangon,16.8409,96.1735,2680,2.5,Low,Humid Delta Zone,Myanmar
+Chitwan,National Maize Research Program,Bagmati,27.5291,84.3542,1950,4.5,Low,Central Inner Terai,Nepal
+Hetauda,Hetauda Agricultural Research Farm,Bagmati,27.4287,85.0322,2200,3.5,Low,Inner Terai Humid Zone,Nepal
+Kathmandu,Nepal Agricultural Research Council (NARC),Bagmati,27.7172,85.324,1400,5,Low,Mid-Hill Agroecology,Nepal
+Lalitpur,NARC Khumaltar Research Station,Bagmati,27.6588,85.3247,1350,5.5,Low,Central Mid-Hills,Nepal
+Lamjung,Lamjung Agricultural Adaptation Center,Gandaki,28.2333,84.4167,2400,2,Low,Central Hill Ecology,Nepal
+Pokhara,Gandaki Agricultural Research Center,Gandaki,28.2096,83.9856,3200,1.5,Low,Humid Mid-Hill Zone,Nepal
+Jumla,Karnali High Mountain Research Station,Karnali,29.2747,82.1838,850,3,Low,High Himalayan Dry Valley,Nepal
+Surkhet,Surkhet Dryland Agriculture Research Unit,Karnali,28.6019,81.6339,1280,7.5,Moderate,Inner Terai Valley,Nepal
+Biratnagar,Eastern Regional Agricultural Research Center,Koshi,26.4525,87.2718,1750,4,Low,Humid Eastern Terai,Nepal
+Dhankuta,Mid-Hill Agricultural Research Station,Koshi,26.9833,87.3333,1850,3.5,Low,Eastern Mid-Hills,Nepal
+Dharan,Hill Crops Research Program,Koshi,26.8144,87.2797,2100,2.5,Low,Eastern Hill Zone,Nepal
+Bhairahawa,National Wheat Research Program,Lumbini,27.5186,83.45,980,12.5,Moderate,Western Terai Plains,Nepal
+Butwal,Butwal Dryland Pulse Research Unit,Lumbini,27.7,83.45,1050,10,Moderate,Western Terai Transition Zone,Nepal
+Dang,Dang Rainfed Agriculture Research Center,Lumbini,28.0417,82.4861,1180,8.5,Moderate,Inner Terai Dry Zone,Nepal
+Nepalgunj,Nepalgunj Regional Agricultural Research Station,Lumbini,28.05,81.6167,1120,10.5,Moderate,Mid-Western Terai,Nepal
+Janakpur,Janakpur Agricultural Research Farm,Madhesh,26.7288,85.925,1180,9,Moderate,Eastern Terai Plains,Nepal
+Rajbiraj,Saptari Agricultural Research Site,Madhesh,26.5333,86.75,1220,8,Moderate,Southeastern Terai Plains,Nepal
+Dhangadhi,Far Western Agricultural Research Station,Sudurpashchim,28.6958,80.5936,1680,4.5,Low,Far-Western Terai,Nepal
+Doti,Hill Dryland Farming Research Station,Sudurpashchim,29.2667,80.9333,980,6,Low,Far-Western Hill Zone,Nepal
+Tikapur,Tikapur Pulse Research Platform,Sudurpashchim,28.5282,81.1177,1540,5.5,Low,Western Terai,Nepal
+Mirpur,Mirpur Dryland Agriculture Research Unit,Azad Jammu and Kashmir,33.148,73.751,890,6,Low,Sub-Humid Plateau,Pakistan
+Muzaffarabad,AJK Agricultural Research Institute,Azad Jammu and Kashmir,34.37,73.47,1450,3.5,Low,Humid Himalayan Foothills,Pakistan
+Gwadar,Gwadar Coastal Agriculture Station,Balochistan,25.1264,62.3225,105,28.5,Very High,Coastal Desert Zone,Pakistan
+Khuzdar,Khuzdar Dry Farming Research Unit,Balochistan,27.8126,66.61,210,22,Very High,Arid Highland Basin,Pakistan
+Quetta,Agricultural Research Institute Balochistan,Balochistan,30.1798,66.975,260,19,High,Cold Arid Plateau,Pakistan
+Turbat,Turbat Desert Agriculture Research Site,Balochistan,26.0031,63.0544,95,31,Very High,Hyper-Arid Coastal Desert,Pakistan
+Zhob,Zhob Highland Pulse Research Farm,Balochistan,31.3417,69.4481,330,14.5,High,Highland Semi-Arid Zone,Pakistan
+Gilgit,Gilgit Mountain Agriculture Research Center,Gilgit-Baltistan,35.9208,74.3145,180,7,Moderate,Cold Mountain Desert,Pakistan
+Skardu,Skardu Highland Research Station,Gilgit-Baltistan,35.2971,75.6337,220,6.5,Low,High Himalayan Valley,Pakistan
+Abbottabad,Hazara Agricultural Research Station,Khyber Pakhtunkhwa,34.1688,73.2215,1180,4,Low,Moist Highland Ecology,Pakistan
+Dera Ismail Khan,DI Khan Arid Agriculture Center,Khyber Pakhtunkhwa,31.8315,70.9017,260,20,Very High,Southern Dry Basin,Pakistan
+Kohat,Kohat Dryland Agriculture Research Station,Khyber Pakhtunkhwa,33.5889,71.4429,390,15.5,High,Subtropical Semi-Arid Zone,Pakistan
+Peshawar,Agricultural Research Institute Tarnab,Khyber Pakhtunkhwa,34.0151,71.5249,410,14,High,Northwestern Dry Valley,Pakistan
+Swat,Swat Mountain Agriculture Research Farm,Khyber Pakhtunkhwa,35.2227,72.4258,920,5.5,Low,Humid Mountain Valley,Pakistan
+Bahawalpur,Bahawalpur Dryland Agriculture Station,Punjab,29.3956,71.6836,145,27,Very High,Cholistan Desert Fringe,Pakistan
+Dera Ghazi Khan,DG Khan Dryland Research Farm,Punjab,30.0459,70.6403,210,22.5,Very High,Western Dry Zone,Pakistan
+Faisalabad,Ayub Agricultural Research Institute (AARI),Punjab,31.4504,73.135,375,18.5,High,Indus Irrigated Plains,Pakistan
+Lahore,University of Agriculture Research Farm,Punjab,31.5204,74.3587,620,10.5,Moderate,Central Punjab Plains,Pakistan
+Multan,Central Cotton Research Institute,Punjab,30.1575,71.5249,190,24.5,Very High,Southern Arid Plains,Pakistan
+Rahim Yar Khan,Desert Agriculture Research Station,Punjab,28.4202,70.2952,110,29,Very High,Hyper-Arid Southern Plains,Pakistan
+Rawalpindi,Potohar Agricultural Research Institute,Punjab,33.5651,73.0169,980,6.5,Low,Pothwar Plateau,Pakistan
+Sargodha,Citrus and Pulse Research Center,Punjab,32.0836,72.6711,410,15,High,Semi-Arid Central Punjab,Pakistan
+Hyderabad,Sindh Agriculture University Research Farm,Sindh,25.396,68.3578,175,21.5,Very High,Lower Indus Basin,Pakistan
+Karachi,Karachi Coastal Agriculture Research Unit,Sindh,24.8607,67.0011,220,16.5,High,Coastal Arid Zone,Pakistan
+Larkana,Larkana Pulse Research Station,Sindh,27.559,68.212,125,25,Very High,Upper Sindh Dry Plains,Pakistan
+Mirpur Khas,Mirpur Khas Agricultural Research Farm,Sindh,25.5269,69.0111,240,18,High,Southeastern Irrigated Plains,Pakistan
+Tandojam,Sindh Agriculture University,Sindh,25.4281,68.5292,190,20.5,Very High,Semi-Arid Sindh Plains,Pakistan
+Muscat,Agriculture and Fisheries Research Center,Muscat,23.588,58.3829,100,12.5,Moderate,Coastal Arid Zone,Oman
+Salalah,Dhofar Agricultural Research Station,Dhofar,17.0194,54.0897,250,8.5,Low,Monsoon Influenced Coastal Zone,Oman
+Nizwa,Nizwa Dryland Agriculture Research Unit,Ad Dakhiliyah,22.9333,57.5333,120,18,High,Interior Oasis Agro-Ecological Zone,Oman
+Sohar,North Al Batinah Agricultural Research Center,North Al Batinah,24.3647,56.7468,110,15.5,Moderate,Coastal Alluvial Plain Zone,Oman
+Ibri,Ad Dhahirah Dry Farming Research Station,Ad Dhahirah,23.2257,56.5157,95,22.5,Very High,Western Desert Margin Zone,Oman
+Sur,Ash Sharqiyah Agricultural Research Farm,South Ash Sharqiyah,22.5667,59.5289,85,20,High,Eastern Coastal Arid Zone,Oman
+Khasab,Musandam Mountain Agriculture Research Unit,Musandam,26.1799,56.2477,140,10,Moderate,Mountainous Coastal Zone,Oman
+Buraimi,Al Buraimi Agricultural Research Station,Al Buraimi,24.2509,55.7931,90,24,Very High,Northwestern Desert Agro Zone,Oman
+Ibra,North Ash Sharqiyah Research Farm,North Ash Sharqiyah,22.6906,58.5334,105,19,High,Interior Semi-Arid Zone,Oman
+Haima,Al Wusta Dryland Research Center,Al Wusta,19.9593,56.2758,55,28.5,Very High,Central Desert Zone,Oman
+Rustaq,South Al Batinah Agricultural Research Station,South Al Batinah,23.3908,57.4244,130,14,Moderate,Wadi Irrigated Agriculture Zone,Oman
+Adam,Interior Dryland Pulse Research Unit,Ad Dakhiliyah,22.3794,57.5278,75,25,Very High,Interior Desert Transition Zone,Oman
+Sana'a,Yemen Agricultural Research and Extension Authority,Sana'a Governorate,15.3694,44.191,350,18.5,High,Highland Semi-Arid Zone,Yemen
+Dhamar,Dhamar Agricultural Research Station,Dhamar Governorate,14.5577,44.4059,450,15,High,Central Highland Rainfed Zone,Yemen
+Taiz,Taiz Agricultural Research Center,Taiz Governorate,13.5795,44.0209,600,10.5,Moderate,Southern Highland Agro-Ecological Zone,Yemen
+Ibb,Ibb Agricultural Research Farm,Ibb Governorate,13.9667,44.1833,900,8,Low,Humid Highland Zone,Yemen
+Al Hudaydah,Tihama Agricultural Research Station,Al Hudaydah Governorate,14.7978,42.9545,120,24.5,Very High,Tihama Coastal Plain Zone,Yemen
+Aden,Aden Coastal Agriculture Research Unit,Aden Governorate,12.7855,45.0187,50,28,Very High,Coastal Arid Zone,Yemen
+Mukalla,Hadhramaut Agricultural Research Center,Hadhramaut Governorate,14.5412,49.1272,80,26.5,Very High,Eastern Coastal Desert Zone,Yemen
+Seiyun,Wadi Hadhramaut Research Farm,Hadhramaut Governorate,15.9431,48.7871,70,29,Very High,Wadi Desert Agriculture Zone,Yemen
+Marib,Marib Dryland Agriculture Research Station,Marib Governorate,15.47,45.325,100,27.5,Very High,Interior Desert Margin Zone,Yemen
+Al Bayda,Al Bayda Highland Research Center,Al Bayda Governorate,13.9852,45.5727,320,19,High,Eastern Highland Semi-Arid Zone,Yemen
+Saada,Saada Mountain Agriculture Research Farm,Saada Governorate,16.9402,43.7639,280,21,High,Northern Mountain Agro Zone,Yemen
+Hajjah,Hajjah Agricultural Research Unit,Hajjah Governorate,15.6917,43.6053,400,16.5,High,Western Highland Rainfed Zone,Yemen
+Al Jawf,Al Jawf Dry Farming Research Center,Al Jawf Governorate,16.7902,45.2994,90,30,Very High,Northern Desert Agricultural Zone,Yemen
+Shabwah,Shabwah Agricultural Research Farm,Shabwah Governorate,14.5514,46.8262,110,25.5,Very High,Central Arid Plateau Zone,Yemen
+Lahij,Lahij Agricultural Development Research Station,Lahij Governorate,13.0567,44.8819,85,23,High,Southern Coastal Plain Zone,Yemen
+Riyadh,National Agricultural Research Center,Riyadh Province,24.7136,46.6753,95,26,Very High,Central Desert Plateau Zone,Saudi Arabia
+Al Kharj,Al Kharj Agricultural Research Station,Riyadh Province,24.1554,47.312,110,24.5,Very High,Irrigated Oasis Agriculture Zone,Saudi Arabia
+Buraydah,Qassim Agricultural Research Center,Al Qassim Province,26.3592,43.9818,135,21,High,Central Semi-Arid Farming Zone,Saudi Arabia
+Unaizah,Qassim Dryland Research Farm,Al Qassim Province,26.0914,43.993,140,19.5,High,Date Palm and Cereal Agro Zone,Saudi Arabia
+Hail,Hail Agricultural Development Research Station,Hail Province,27.5114,41.7208,120,22.5,High,Northern Plateau Agriculture Zone,Saudi Arabia
+Sakaka,Al Jouf Agricultural Research Center,Al Jouf Province,29.9697,40.2064,85,25.5,Very High,Northern Arid Farming Zone,Saudi Arabia
+Tabuk,Tabuk Agricultural Research Station,Tabuk Province,28.3838,36.555,70,27,Very High,Northwestern Desert Agriculture Zone,Saudi Arabia
+Madinah,Madinah Agricultural Research Farm,Al Madinah Province,24.5247,39.5692,60,28.5,Very High,Western Arid Oasis Zone,Saudi Arabia
+Taif,Taif Highland Agricultural Research Center,Makkah Province,21.2703,40.4158,180,15,Moderate,Southwestern Highland Zone,Saudi Arabia
+Jeddah,Red Sea Coastal Agriculture Research Unit,Makkah Province,21.4858,39.1925,55,29,Very High,Red Sea Coastal Arid Zone,Saudi Arabia
+Abha,Asir Agricultural Research Center,Asir Province,18.2164,42.5053,320,10.5,Moderate,Mountain Rainfed Agriculture Zone,Saudi Arabia
+Khamis Mushait,Asir Highland Research Farm,Asir Province,18.3,42.7333,280,12,Moderate,Southern Highland Agro Zone,Saudi Arabia
+Jazan,Jazan Agricultural Research and Development Center,Jazan Province,16.8892,42.5511,190,14,Moderate,Tropical Coastal Agriculture Zone,Saudi Arabia
+Najran,Najran Dryland Agriculture Research Station,Najran Province,17.565,44.2289,95,24,High,Southern Desert Oasis Zone,Saudi Arabia
+Al Bahah,Al Bahah Mountain Agriculture Research Unit,Al Bahah Province,20.0129,41.4677,240,13.5,Moderate,Mountain Terrace Farming Zone,Saudi Arabia
+Arar,Northern Border Agricultural Research Farm,Northern Borders Province,30.9753,41.0381,75,26.5,Very High,Northern Desert Steppe Zone,Saudi Arabia
+Yanbu,Yanbu Coastal Research Station,Al Madinah Province,24.0895,38.0618,45,30,Very High,Western Coastal Desert Zone,Saudi Arabia
+Al Ahsa,Al Ahsa Oasis Agricultural Research Center,Eastern Province,25.3838,49.5862,85,23,High,Eastern Oasis Agriculture Zone,Saudi Arabia
+Dammam,Eastern Province Agricultural Research Unit,Eastern Province,26.4207,50.0888,80,24.5,High,Gulf Coastal Arid Zone,Saudi Arabia
+Hafar Al Batin,Northeast Dry Farming Research Station,Eastern Province,28.4328,45.9708,95,25,Very High,Northeastern Semi-Arid Steppe Zone,Saudi Arabia
+Kuwait City,Kuwait Institute for Scientific Research Agricultural Center,Al Asimah,29.3759,47.9774,115,22.5,High,Coastal Desert Agriculture Zone,Kuwait
+Al Jahra,Al Jahra Agricultural Research Station,Al Jahra,29.3375,47.6581,105,26,Very High,Western Desert Farming Zone,Kuwait
+Abdali,Abdali Experimental Agricultural Farm,Al Jahra,30.0958,47.6925,125,20,High,Northern Irrigated Agriculture Zone,Kuwait
+Al Wafra,Wafra Agricultural Research Center,Al Ahmadi,28.6392,48.0147,95,27.5,Very High,Southern Desert Agriculture Zone,Kuwait
+Al Ahmadi,Desert Crop Research Unit,Al Ahmadi,29.0769,48.0839,100,25,Very High,Coastal Arid Farming Zone,Kuwait
+Sabah Al Salem,Protected Agriculture Research Facility,Mubarak Al Kabeer,29.2578,48.0786,110,21,High,Greenhouse Production Zone,Kuwait
+Al Farwaniyah,Agricultural Technology Research Center,Al Farwaniyah,29.2775,47.9586,115,22,High,Urban Peri-Agricultural Zone,Kuwait
+Salmi,Salmi Dryland Research Station,Al Jahra,29.1286,46.6628,85,30,Very High,Extreme Desert Agro-Ecological Zone,Kuwait
+Kabd,Kabd Sustainable Agriculture Farm,Al Jahra,29.2333,47.7,100,24.5,High,Central Desert Irrigation Zone,Kuwait
+Sulaibiya,Sulaibiya Agricultural Research Farm,Al Jahra,29.3333,47.8,105,23.5,High,Reclaimed Desert Agriculture Zone,Kuwait
+Al Fintas,Coastal Agriculture Development Unit,Al Ahmadi,29.1739,48.1219,110,21.5,High,Gulf Coastal Agriculture Zone,Kuwait
+Al Mutlaa,North Kuwait Agricultural Research Center,Al Jahra,29.4833,47.7167,95,28,Very High,Northern Desert Transition Zone,Kuwait
+Al Zour,Al Zour Agricultural Development Station,Al Ahmadi,28.7333,48.3667,90,29,Very High,Southern Coastal Desert Zone,Kuwait
+Al Shadadiyah,Agricultural Innovation Research Hub,Al Farwaniyah,29.32,47.93,115,22,High,Central Agricultural Research Zone,Kuwait
+Nuwaiseeb,Border Desert Agriculture Research Farm,Al Ahmadi,28.55,48.4,80,31,Very High,Hyper-Arid Border Agriculture Zone,Kuwait
+Abu Dhabi,Abu Dhabi Agricultural Research Center,Abu Dhabi,24.4539,54.3773,75,26.5,Very High,Coastal Desert Agriculture Zone,United Arab Emirates
+Al Ain,Al Ain Desert Agriculture Research Station,Abu Dhabi,24.2075,55.7447,105,20,High,Oasis Irrigated Agriculture Zone,United Arab Emirates
+Madinat Zayed,Western Region Agricultural Research Farm,Abu Dhabi,23.6547,53.7078,65,28.5,Very High,Western Desert Agro-Ecological Zone,United Arab Emirates
+Liwa,Liwa Oasis Agricultural Research Center,Abu Dhabi,22.9933,53.7878,55,30,Very High,Southern Oasis Agriculture Zone,United Arab Emirates
+Dubai,Dubai Sustainable Agriculture Research Unit,Dubai,25.2048,55.2708,90,22,High,Urban Desert Farming Zone,United Arab Emirates
+Hatta,Hatta Mountain Agriculture Research Station,Dubai,24.7994,56.1139,140,15,Moderate,Mountain Agro-Ecological Zone,United Arab Emirates
+Sharjah,Sharjah Agricultural Innovation Center,Sharjah,25.3463,55.4209,100,21.5,High,Eastern Coastal Plain Zone,United Arab Emirates
+Kalba,Kalba Agricultural Research Farm,Sharjah,24.9982,56.2721,155,12.5,Moderate,Eastern Coastal Agriculture Zone,United Arab Emirates
+Khor Fakkan,Khor Fakkan Mountain Research Center,Sharjah,25.3397,56.3028,165,11,Moderate,Eastern Mountain Agriculture Zone,United Arab Emirates
+Ajman,Ajman Agricultural Development Research Unit,Ajman,25.4052,55.5136,95,23,High,Northern Coastal Desert Zone,United Arab Emirates
+Umm Al Quwain,Umm Al Quwain Agricultural Research Farm,Umm Al Quwain,25.5647,55.5552,90,24,High,Coastal Sandy Agriculture Zone,United Arab Emirates
+Ras Al Khaimah,Ras Al Khaimah Agricultural Research Center,Ras Al Khaimah,25.8007,55.9762,130,16.5,Moderate,Northern Mountain-Foothill Agriculture Zone,United Arab Emirates
+Digdaga,Digdaga Research Farm,Ras Al Khaimah,25.7167,55.9333,125,17.5,Moderate,Foothill Irrigated Agriculture Zone,United Arab Emirates
+Fujairah,Fujairah Agricultural Research Station,Fujairah,25.1288,56.3265,145,14,Moderate,Eastern Coastal Agro Zone,United Arab Emirates
+Masafi,Masafi Highland Agriculture Research Unit,Fujairah,25.3167,56.1667,160,10.5,Moderate,Wadi Agriculture Zone,United Arab Emirates
+Dibba Al Fujairah,Dibba Agricultural Research Center,Fujairah,25.6145,56.2721,170,9.5,Low,Northeastern Coastal Agriculture Zone,United Arab Emirates
+Al Dhaid,Al Dhaid Dryland Agriculture Research Station,Sharjah,25.2881,55.8816,110,19,High,Interior Semi-Arid Farming Zone,United Arab Emirates
+Ghayathi,Ghayathi Agricultural Research Farm,Abu Dhabi,23.6947,52.7314,60,29,Very High,Extreme Western Desert Zone,United Arab Emirates
+Ruwais,Ruwais Sustainable Agriculture Unit,Abu Dhabi,24.1103,52.7306,55,30.5,Very High,Coastal Industrial Desert Zone,United Arab Emirates
+Sweihan,Sweihan Oasis Research Center,Abu Dhabi,24.4686,55.39,95,21,High,Central Oasis Agriculture Zone,United Arab Emirates
+Doha,Qatar Agricultural Research Department,Doha Municipality,25.2854,51.531,80,24,High,Coastal Desert Agriculture Zone,Qatar
+Al Rayyan,Al Rayyan Agricultural Research Station,Al Rayyan Municipality,25.2919,51.4244,85,22.5,High,Peri-Urban Irrigated Agriculture Zone,Qatar
+Al Khor,Al Khor Agricultural Research Center,Al Khor Municipality,25.6839,51.5058,90,21,High,Northern Coastal Agriculture Zone,Qatar
+Al Wakrah,Al Wakrah Sustainable Agriculture Farm,Al Wakrah Municipality,25.1715,51.6034,75,25,High,Southern Coastal Desert Zone,Qatar
+Al Shamal,Al Shamal Dryland Research Station,Al Shamal Municipality,26.1293,51.2009,95,20,Moderate,Northern Semi-Arid Agriculture Zone,Qatar
+Madinat ash Shamal,North Qatar Agricultural Research Farm,Al Shamal Municipality,26.1298,51.2149,100,18.5,Moderate,North Peninsula Farming Zone,Qatar
+Dukhan,Dukhan Desert Agriculture Research Center,Al Shahaniya Municipality,25.4248,50.7823,60,28,Very High,Western Desert Agro-Ecological Zone,Qatar
+Al Shahaniya,Al Shahaniya Agricultural Development Center,Al Shahaniya Municipality,25.3709,51.2227,70,26,Very High,Central Desert Farming Zone,Qatar
+Umm Salal,Umm Salal Agricultural Innovation Farm,Umm Salal Municipality,25.4152,51.4065,85,22,High,Central Irrigated Agriculture Zone,Qatar
+Lusail,Lusail Controlled Environment Agriculture Unit,Doha Municipality,25.4208,51.4905,80,23,High,Urban Protected Agriculture Zone,Qatar
+Mesaieed,Mesaieed Agricultural Research Facility,Al Wakrah Municipality,24.9926,51.5507,55,29,Very High,Southern Industrial Desert Zone,Qatar
+Al Ruwais,Al Ruwais Coastal Agriculture Research Farm,Al Shamal Municipality,26.1394,51.214,95,19.5,Moderate,Northern Coastal Agro Zone,Qatar
+Al Ghuwariyah,Al Ghuwariyah Agricultural Research Station,Al Khor Municipality,25.8288,51.2457,90,20.5,High,Northeastern Farming Zone,Qatar
+Abu Samra,Border Desert Agriculture Research Center,Al Rayyan Municipality,24.7268,50.8411,50,30,Very High,Southern Hyper-Arid Agriculture Zone,Qatar
+Al Karaana,Al Karaana Dry Farming Research Unit,Al Rayyan Municipality,25.1,50.85,65,27,Very High,Inland Desert Plateau Zone,Qatar
+Manama,Bahrain Agricultural Research Center,Capital Governorate,26.2235,50.5876,80,23.5,High,Urban Coastal Agriculture Zone,Bahrain
+Muharraq,Muharraq Agricultural Development Station,Muharraq Governorate,26.2572,50.6119,75,24.5,High,Island Coastal Farming Zone,Bahrain
+Riffa,Riffa Dryland Agriculture Research Farm,Southern Governorate,26.13,50.555,85,22,High,Central Semi-Arid Agriculture Zone,Bahrain
+Isa Town,Isa Town Agricultural Research Unit,Southern Governorate,26.1736,50.5478,80,23,High,Interior Agricultural Development Zone,Bahrain
+Sitra,Sitra Agricultural Innovation Center,Capital Governorate,26.1547,50.6206,70,25.5,Very High,Industrial Coastal Agriculture Zone,Bahrain
+Hamad Town,Hamad Town Sustainable Agriculture Farm,Northern Governorate,26.1153,50.506,85,21.5,High,Reclaimed Agricultural Zone,Bahrain
+Aali,Aali Research Farm,Central Governorate,26.1544,50.5481,90,20,Moderate,Inland Irrigated Agriculture Zone,Bahrain
+Budaiya,Budaiya Agricultural Research Station,Northern Governorate,26.2308,50.4836,95,18.5,Moderate,Date Palm and Horticulture Zone,Bahrain
+Diraz,Diraz Agricultural Research Farm,Northern Governorate,26.2422,50.4664,100,17.5,Moderate,Northwestern Agricultural Belt,Bahrain
+Jannusan,Jannusan Agricultural Development Center,Northern Governorate,26.2281,50.5003,95,18,Moderate,Coastal Irrigated Farming Zone,Bahrain
+Bani Jamra,Bani Jamra Sustainable Farming Research Unit,Northern Governorate,26.22,50.49,90,19,Moderate,Traditional Agricultural Zone,Bahrain
+Saar,Saar Agricultural Research Hub,Northern Governorate,26.1869,50.4896,85,20.5,High,Peri-Urban Agriculture Zone,Bahrain
+Zallaq,Zallaq Desert Agriculture Research Center,Southern Governorate,26.0397,50.4869,65,27,Very High,Southern Coastal Desert Zone,Bahrain
+Askar,Askar Agricultural Development Farm,Southern Governorate,26.0683,50.6181,70,26,Very High,Eastern Coastal Arid Zone,Bahrain
+Durrat Al Bahrain,Durrat Agricultural Research Facility,Southern Governorate,25.8267,50.6128,60,28.5,Very High,Southern Island Desert Agriculture Zone,Bahrain
+Baghdad,Iraqi Agricultural Research Directorate,Baghdad,33.3152,44.3661,150,22,High,Central Irrigated Alluvial Plains,Iraq
+Mosul,Nineveh Agricultural Research Center,Nineveh,36.3456,43.1575,380,12.5,Moderate,Northern Rainfed Cereal Zone,Iraq
+Erbil,Kurdistan Agricultural Research Institute,Erbil,36.1911,44.0092,420,10,Moderate,Northern Highland Agriculture Zone,Iraq
+Sulaymaniyah,Sulaymaniyah Agricultural Research Station,Sulaymaniyah,35.5613,45.4302,650,7.5,Low,Mountain Rainfed Agriculture Zone,Iraq
+Duhok,Duhok Dryland Agriculture Research Center,Duhok,36.8667,42.9885,550,8.5,Low,Zagros Foothill Agro-Ecological Zone,Iraq
+Kirkuk,Kirkuk Agricultural Development Research Farm,Kirkuk,35.4681,44.3922,330,15,High,Northern Semi-Arid Plains,Iraq
+Tikrit,Salah al-Din Agricultural Research Station,Salah al-Din,34.6071,43.6782,220,18.5,High,Tigris River Irrigation Zone,Iraq
+Ramadi,Anbar Dry Farming Research Center,Al Anbar,33.4256,43.2993,120,26,Very High,Western Desert Agriculture Zone,Iraq
+Fallujah,Fallujah Agricultural Research Farm,Al Anbar,33.3491,43.7866,140,24,High,Euphrates Irrigation Agriculture Zone,Iraq
+Baqubah,Diyala Agricultural Research Center,Diyala,33.754,44.6052,250,17,High,Eastern Irrigated Plains Zone,Iraq
+Kut,Wasit Agricultural Research Station,Wasit,32.5128,45.8182,180,20.5,High,Tigris-Euphrates Agricultural Belt,Iraq
+Najaf,Najaf Desert Agriculture Research Unit,Najaf,31.9985,44.3309,95,28,Very High,Southern Desert Margin Zone,Iraq
+Karbala,Karbala Agricultural Development Center,Karbala,32.616,44.0249,110,25,Very High,Central Arid Agriculture Zone,Iraq
+Hillah,Babylon Agricultural Research Farm,Babylon,32.4721,44.4217,160,21,High,Fertile Crescent Irrigation Zone,Iraq
+Diwaniyah,Al Qadisiyyah Agricultural Research Station,Al Qadisiyyah,31.9929,44.9255,140,23.5,High,Southern Irrigated Agriculture Zone,Iraq
+Nasiriyah,Dhi Qar Agricultural Research Center,Dhi Qar,31.057,46.2573,130,24.5,High,Marshland Agriculture Transition Zone,Iraq
+Amarah,Maysan Agricultural Research Farm,Maysan,31.8394,47.1512,145,22.5,High,Southeastern Riverine Agriculture Zone,Iraq
+Basra,Basra Agricultural Research and Development Center,Basra,30.5085,47.7804,135,26.5,Very High,Shatt al-Arab Agricultural Zone,Iraq
+Samawah,Muthanna Dryland Research Station,Al Muthanna,31.3188,45.2806,100,29,Very High,Southern Desert Agriculture Zone,Iraq
+Zakho,Zakho Agricultural Research Farm,Duhok,37.1436,42.6872,500,9,Low,Northern Border Highland Zone,Iraq
+Urumqi,Xinjiang Academy of Agricultural Sciences,Xinjiang,43.8256,87.6168,290,24.5,High,Northwest Arid Irrigated Agriculture Zone,China
+Shihezi,Xinjiang Agricultural Research Center,Xinjiang,44.305,86.0369,210,27,Very High,Xinjiang Oasis Farming Zone,China
+Korla,Tarim Basin Agricultural Research Station,Xinjiang,41.7264,86.1746,65,32,Very High,Extreme Arid Desert Agriculture Zone,China
+Yinchuan,Ningxia Academy of Agriculture and Forestry Sciences,Ningxia,38.4872,106.2309,190,25,High,Yellow River Irrigated Agriculture Zone,China
+Guyuan,Ningxia Dryland Agriculture Research Farm,Ningxia,36.0046,106.2782,430,14.5,Moderate,Loess Plateau Rainfed Zone,China
+Lanzhou,Gansu Academy of Agricultural Sciences,Gansu,36.0611,103.8343,320,18.5,High,Northwest Semi-Arid Agriculture Zone,China
+Dingxi,Dingxi Dryland Agricultural Research Center,Gansu,35.5806,104.6263,390,15,Moderate,Loess Plateau Dry Farming Zone,China
+Zhangye,Hexi Corridor Agricultural Research Station,Gansu,38.9259,100.4498,130,28,Very High,Hexi Irrigated Desert Agriculture Zone,China
+Xining,Qinghai Agricultural Research Institute,Qinghai,36.6171,101.7782,380,12,Moderate,Plateau Agriculture Zone,China
+Hohhot,Inner Mongolia Agricultural University,Inner Mongolia,40.8426,111.7492,410,16.5,Moderate,Northern Grassland Agriculture Zone,China
+Baotou,Inner Mongolia Dryland Research Farm,Inner Mongolia,40.6574,109.8403,290,22.5,High,Semi-Arid Steppe Agriculture Zone,China
+Tongliao,Horqin Agricultural Research Center,Inner Mongolia,43.6174,122.264,360,18,High,Horqin Sandy Land Agriculture Zone,China
+Taiyuan,Shanxi Academy of Agricultural Sciences,Shanxi,37.8706,112.5489,460,14,Moderate,Loess Plateau Agricultural Zone,China
+Datong,Datong Dryland Farming Research Station,Shanxi,40.0768,113.3001,390,16,Moderate,Northern Highland Agriculture Zone,China
+Xi'an,Northwest A&F University Research Center,Shaanxi,34.3416,108.9398,560,11.5,Moderate,Guanzhong Plain Agriculture Zone,China
+Yangling,Northwest Agriculture and Forestry University,Shaanxi,34.272,108.086,620,10,Low,Agricultural Innovation Zone,China
+Shijiazhuang,Hebei Academy of Agriculture and Forestry Sciences,Hebei,38.0428,114.5149,510,13.5,Moderate,North China Plain Agriculture Zone,China
+Zhengzhou,Henan Agricultural University,Henan,34.7466,113.6254,640,9.5,Low,Central Plains Agriculture Zone,China
+Jinan,Shandong Academy of Agricultural Sciences,Shandong,36.6512,117.1201,690,8.5,Low,Eastern Temperate Agriculture Zone,China
+Harbin,Heilongjiang Academy of Agricultural Sciences,Heilongjiang,45.8038,126.535,540,11,Moderate,Northeast Black Soil Agriculture Zone,China
+Addis Ababa,Ethiopian Institute of Agricultural Research,Addis Ababa,8.9806,38.7578,1160,8.5,Low,Ethiopian Highland Agriculture,Ethiopia
+Debre Zeit,Debre Zeit Agricultural Research Center,Oromia,8.7333,38.9833,850,12,Moderate,Central Highland Mixed Farming,Ethiopia
+Melkassa,Melkassa Agricultural Research Center,Oromia,8.4,39.3333,780,15.5,Moderate,Rift Valley Semi-Arid Zone,Ethiopia
+Hawassa,Southern Agricultural Research Institute,Sidama,7.0621,38.4763,960,10.5,Low,Sub-Humid Highland Zone,Ethiopia
+Mekelle,Tigray Agricultural Research Institute,Tigray,13.4967,39.4753,620,18.5,High,Northern Dry Highland Zone,Ethiopia
+Khartoum,Agricultural Research Corporation,Khartoum,15.5007,32.5599,160,28.5,Very High,Nile Irrigated Arid Zone,Sudan
+Wad Medani,Gezira Research Farm,Al Jazirah,14.4012,33.5199,250,24,High,Central Clay Plain,Sudan
+El Obeid,North Kordofan Research Station,North Kordofan,13.1842,30.2167,320,22,High,Savanna Dryland Zone,Sudan
+Kassala,Eastern Sudan Research Center,Kassala,15.4581,36.4032,280,21.5,High,Eastern Semi-Arid Plain,Sudan
+Dongola,Northern Agricultural Research Station,Northern,19.1816,30.4764,40,32,Very High,Hyper-Arid Nile Valley,Sudan
+Asmara,Hamelmalo Agricultural College,Maekel,15.3229,38.9251,430,18,High,Eritrean Central Highlands,Eritrea
+Keren,Eritrean Agricultural Research Station,Anseba,15.7779,38.4511,520,15,Moderate,Western Highland Zone,Eritrea
+Barentu,Gash-Barka Agricultural Center,Gash-Barka,15.1058,37.5907,360,20.5,High,Western Lowland Dry Zone,Eritrea
+Nairobi,Kenya Agricultural and Livestock Research Organization,Nairobi,-1.2921,36.8219,940,9,Low,Kenyan Highland Agriculture,Kenya
+Katumani,Katumani Dryland Research Center,Machakos,-1.585,37.25,650,16.5,Moderate,Eastern Dryland Zone,Kenya
+Kiboko,Kiboko Research Station,Makueni,-2.217,37.723,560,18,High,Semi-Arid Lowland Zone,Kenya
+Eldoret,University of Eldoret Agricultural Farm,Uasin Gishu,0.5143,35.2698,1120,7.5,Low,High Potential Maize Zone,Kenya
+Arusha,Tanzania Agricultural Research Institute,Arusha,-3.3869,36.6822,680,15.5,Moderate,Northern Dry Plateau,Tanzania
+Dodoma,Dodoma Agricultural Research Center,Dodoma,-6.163,35.7516,570,18.5,High,Central Semi-Arid Zone,Tanzania
+Morogoro,Sokoine University Research Farm,Morogoro,-6.8278,37.6591,850,12,Moderate,Eastern Sub-Humid Zone,Tanzania
+Kampala,National Agricultural Research Organization,Central,0.3476,32.5825,1180,7,Low,Equatorial Agriculture Zone,Uganda
+Kabale,Kachwekano Research Station,Western,-1.2486,29.9899,1050,8.5,Low,Southwestern Highland Zone,Uganda
+Mbarara,Mbarara Agricultural Research Center,Western,-0.6072,30.6545,900,10,Low,Cattle Corridor Agroecosystem,Uganda
+Rabat,National Institute of Agricultural Research,Rabat-Salé-Kénitra,34.0209,-6.8416,550,12.5,Moderate,Atlantic Mediterranean Zone,Morocco
+Settat,Settat Agricultural Research Station,Casablanca-Settat,33.001,-7.6166,420,17.5,High,Semi-Arid Cereal Belt,Morocco
+Meknes,Meknes Research Farm,Fès-Meknès,33.8935,-5.5473,610,11,Moderate,Central Plateau Agriculture,Morocco
+Marrakech,Marrakech Dryland Research Center,Marrakech-Safi,31.6295,-7.9811,250,24,High,Arid Inland Plain,Morocco
+Algiers,National Institute of Agronomic Research,Algiers,36.7538,3.0588,690,10,Low,Coastal Mediterranean Zone,Algeria
+Setif,Setif Agricultural Research Center,Sétif,36.1911,5.4137,410,18,High,High Plateau Dry Farming,Algeria
+Batna,Batna Dryland Research Station,Batna,35.5559,6.1741,320,22.5,High,Eastern Semi-Arid Highlands,Algeria
+Tlemcen,Tlemcen Agricultural Institute,Tlemcen,34.8783,-1.315,520,13.5,Moderate,Northwestern Mediterranean Zone,Algeria
+Tunis,National Agronomic Institute of Tunisia,Tunis,36.8065,10.1815,470,15,Moderate,Northern Mediterranean Agriculture,Tunisia
+Kairouan,Central Tunisia Research Farm,Kairouan,35.6781,10.0963,310,22,High,Central Semi-Arid Zone,Tunisia
+Sfax,Sfax Agricultural Research Center,Sfax,34.7406,10.7603,220,26,Very High,Southern Arid Coastal Zone,Tunisia
+Cairo,Agricultural Research Center,Giza,30.0444,31.2357,30,34,Very High,Nile Irrigated Desert Agriculture,Egypt
+Minya,Middle Egypt Research Station,Minya,28.1099,30.7503,55,30,Very High,Middle Nile Valley,Egypt
+Aswan,Aswan Agricultural Research Center,Aswan,24.0889,32.8998,5,38,Very High,Hyper-Arid Desert Nile Zone,Egypt
+Bloemfontein,Agricultural Research Council Free State,Free State,-29.0852,26.1596,560,16,Moderate,South African Dryland Grain Belt,South Africa
+Potchefstroom,ARC Grain Crops Institute,North West,-26.7167,27.1,620,14.5,Moderate,Highveld Dry Farming Zone,South Africa
+Pretoria,Agricultural Research Council,Gauteng,-25.7479,28.2293,700,12,Moderate,Subtropical Plateau Agriculture,South Africa
+Cordoba,IFAPA Alameda del Obispo Research Center,Andalusia,37.8882,-4.7794,590,12.5,Moderate,Southern Mediterranean Dryland Zone,Spain
+Seville,University of Seville Agricultural Research Farm,Andalusia,37.3891,-5.9845,540,14,Moderate,Guadalquivir Valley Agriculture,Spain
+Badajoz,CICYTEX Agricultural Research Institute,Extremadura,38.8794,-6.9707,510,15.5,Moderate,Southwestern Dryland Farming Zone,Spain
+Toledo,Castile-La Mancha Research Station,Castile-La Mancha,39.8628,-4.0273,420,18.5,High,Central Plateau Semi-Arid Zone,Spain
+Lerida,IRTA Experimental Farm,Catalonia,41.6176,0.62,380,20,High,Northeastern Dryland Agriculture,Spain
+Beja,National Institute for Agricultural Research,Alentejo,38.0151,-7.8632,520,14.5,Moderate,Southern Portugal Dry Farming Belt,Portugal
+Evora,University of Evora Agricultural Research Center,Alentejo,38.571,-7.9135,560,13,Moderate,Mediterranean Agroecosystem,Portugal
+Castelo Branco,Agricultural Polytechnic Research Farm,Centro,39.8222,-7.4909,650,10.5,Low,Central Portuguese Agriculture Zone,Portugal
+Foggia,CREA Cereal and Industrial Crops Research Center,Apulia,41.4622,15.5446,470,16,Moderate,Southern Italian Dryland Zone,Italy
+Bari,University of Bari Agricultural Research Farm,Apulia,41.1171,16.8719,560,13.5,Moderate,Adriatic Coastal Agriculture,Italy
+Sassari,Agricultural Research Agency of Sardinia,Sardinia,40.7259,8.5557,510,15,Moderate,Mediterranean Island Agriculture,Italy
+Cagliari,University of Cagliari Agricultural Station,Sardinia,39.2238,9.1217,430,18.5,High,South Mediterranean Coastal Zone,Italy
+Bologna,University of Bologna Experimental Farm,Emilia-Romagna,44.4949,11.3426,760,8,Low,Northern Temperate Agriculture,Italy
+Larissa,Hellenic Agricultural Organization,Dessaly,39.639,22.4191,450,18,High,Central Greek Dryland Agriculture,Greece
+Thessaloniki,AUTH Agricultural Research Farm,Central Macedonia,40.6401,22.9444,470,16.5,Moderate,Northern Mediterranean Agriculture,Greece
+Athens,Benaki Phytopathological Institute,Attica,37.9838,23.7275,380,20,High,Attica Semi-Arid Agriculture,Greece
+Patras,University of Patras Agricultural Research Unit,Western Greece,38.2466,21.7346,670,10.5,Low,Western Coastal Agriculture,Greece
+Montpellier,INRAE Mediterranean Research Center,Occitanie,43.6119,3.8772,620,9.5,Low,Mediterranean Agricultural Zone,France
+Toulouse,INRAE Experimental Farm,Occitanie,43.6047,1.4442,700,8.5,Low,Southwestern Temperate Agriculture,France
+Avignon,INRAE PACA Research Station,Provence-Alpes-Côte d'Azur,43.9493,4.8055,580,11,Moderate,Rhone Valley Mediterranean Zone,France
+Sofia,Agricultural Academy of Bulgaria,Sofia Province,42.6977,23.3219,620,12.5,Moderate,Balkan Dryland Agriculture,Bulgaria
+Plovdiv,Maritsa Vegetable Crops Research Institute,Plovdiv,42.1354,24.7453,540,14,Moderate,Upper Thracian Plain,Bulgaria
+Pleven,Institute of Forage Crops,Pleven,43.417,24.6067,580,13,Moderate,Northern Bulgarian Agriculture,Bulgaria
+Bucharest,National Agricultural Research Institute,Bucharest,44.4268,26.1025,590,12,Moderate,Danube Plain Agriculture,Romania
+Craiova,Oltenia Agricultural Research Center,Dolj,44.3302,23.7949,520,15.5,Moderate,Southern Romanian Dryland Zone,Romania
+Cluj-Napoca,University of Agricultural Sciences and Veterinary Medicine,Cluj,46.7712,23.6236,690,8.5,Low,Transylvanian Agricultural Zone,Romania
+Belgrade,Institute of Field and Vegetable Crops,Central Serbia,44.7866,20.4489,650,10,Low,Balkan Continental Agriculture,Serbia
+Novi Sad,Institute of Field and Vegetable Crops,Vojvodina,45.2671,19.8335,620,11.5,Moderate,Pannonian Plain Agriculture,Serbia
+Skopje,Faculty of Agricultural Sciences and Food,Skopje,41.9981,21.4254,500,15,Moderate,Vardar River Dryland Zone,North Macedonia
+Ankara,Central Research Institute for Field Crops,Ankara,39.9334,32.8597,390,21,High,Central Anatolian Steppe,Turkey
+Konya,Bahri Dagdas International Agricultural Research Institute,Konya,37.8746,32.4932,320,24,High,Anatolian Semi-Arid Plateau,Turkey
+Eskisehir,Transitional Zone Agricultural Research Institute,Eskisehir,39.7667,30.5256,360,20.5,High,Central Anatolian Dry Farming Zone,Turkey
+Diyarbakir,Southeastern Anatolia Agricultural Research Institute,Diyarbakir,37.9144,40.2306,490,16.5,Moderate,Southeastern Anatolia Project Zone,Turkey
+Adana,Eastern Mediterranean Agricultural Research Institute,Adana,37,35.3213,650,10,Low,Eastern Mediterranean Agriculture,Turkey
+Aleppo,ICARDA Research Station,Aleppo,36.2021,37.1343,330,22.5,High,Northern Dryland Farming Zone,Syria
+Hama,Hama Agricultural Research Center,Hama,35.1318,36.7578,420,18,High,Central Semi-Arid Agricultural Zone,Syria
+Homs,Homs Dryland Agriculture Research Farm,Homs,34.7324,36.7137,380,19.5,High,Central Steppe Agriculture,Syria
+Al-Hasakah,Al-Hasakah Agricultural Research Station,Al-Hasakah,36.5024,40.7477,290,24,High,Northeastern Rainfed Agriculture,Syria
+Deir ez-Zor,Euphrates Agricultural Research Center,Deir ez-Zor,35.3333,40.15,150,30.5,Very High,Euphrates Arid Zone,Syria
+Damascus,General Commission for Scientific Agricultural Research,Damascus,33.5138,36.2765,210,25,High,Southwestern Dryland Zone,Syria
+Daraa,Daraa Agricultural Research Farm,Daraa,32.6189,36.1021,270,22,High,Hauran Plateau Agriculture,Syria
+Ankara,Central Research Institute for Field Crops,Ankara,39.9334,32.8597,390,21,High,Central Anatolian Steppe,Turkey
+Konya,Bahri Dagdas International Agricultural Research Institute,Konya,37.8746,32.4932,320,24,High,Anatolian Semi-Arid Plateau,Turkey
+Eskisehir,Transitional Zone Agricultural Research Institute,Eskisehir,39.7667,30.5256,360,20.5,High,Central Anatolian Dry Farming Zone,Turkey
+Diyarbakir,Southeastern Anatolia Agricultural Research Institute,Diyarbakir,37.9144,40.2306,490,16.5,Moderate,Southeastern Anatolia Project Zone,Turkey
+Adana,Eastern Mediterranean Agricultural Research Institute,Adana,37,35.3213,650,10,Low,Eastern Mediterranean Agriculture,Turkey
+Sanliurfa,GAP Agricultural Research Institute,Sanliurfa,37.1674,38.7955,460,18.5,Moderate,Southeastern Dryland Agriculture,Turkey
+Kayseri,Erciyes Agricultural Research Station,Kayseri,38.7312,35.4787,400,19,High,Central Anatolian Agriculture,Turkey
+Sivas,Sivas Dryland Agriculture Research Center,Sivas,39.7477,37.0179,430,17,Moderate,Highland Semi-Arid Zone,Turkey
+Amman,National Agricultural Research Center,Amman,31.9454,35.9284,270,23.5,High,Jordan Highland Dry Farming,Jordan
+Irbid,Jordan University of Science and Technology Agricultural Farm,Irbid,32.5556,35.85,420,16,Moderate,Northern Rainfed Agriculture,Jordan
+Mafraq,Mafraq Agricultural Research Station,Mafraq,32.3429,36.208,160,29,Very High,Eastern Desert Fringe,Jordan
+Karak,Karak Dryland Research Farm,Karak,31.1854,35.7047,290,22,High,Southern Highland Agriculture,Jordan
+Madaba,Central Jordan Agricultural Research Unit,Madaba,31.7167,35.8,310,20,High,Central Plateau Agriculture,Jordan
+Aqaba,Aqaba Desert Agriculture Research Center,Aqaba,29.5321,35.0063,35,35,Very High,Hyper-Arid Red Sea Zone,Jordan
+Beirut,Lebanese Agricultural Research Institute,Beirut,33.8938,35.5018,850,8,Low,Coastal Mediterranean Agriculture,Lebanon
+Zahle,Zahle Agricultural Research Station,Bekaa,33.8468,35.902,620,11.5,Moderate,Bekaa Valley Agriculture,Lebanon
+Baalbek,Baalbek Dryland Agriculture Center,Baalbek-Hermel,34.0058,36.2181,450,16,Moderate,Northern Bekaa Dryland Zone,Lebanon
+Tyre,South Lebanon Agricultural Research Farm,South Governorate,33.2704,35.2038,730,9.5,Low,Coastal Sub-Humid Agriculture,Lebanon
+Tripoli,North Lebanon Agricultural Research Station,North Governorate,34.4335,35.8441,780,8.5,Low,Northern Mediterranean Agriculture,Lebanon
+Ulaanbaatar,Mongolian University of Life Sciences Research Farm,Ulaanbaatar,47.8864,106.9057,270,19,High,Central Mongolian Steppe,Mongolia
+Darkhan,Darkhan Agricultural Research Institute,Darkhan-Uul,49.4867,105.9228,310,16,Moderate,Northern Dryland Agriculture,Mongolia
+Erdenet,Orkhon Agricultural Research Center,Orkhon,49.0278,104.0444,290,17.5,Moderate,Forest-Steppe Agriculture,Mongolia
+Choibalsan,Eastern Mongolia Agricultural Station,Dornod,48.0726,114.5326,340,14.5,Moderate,Eastern Grassland Agriculture,Mongolia
+Sainshand,Gobi Desert Agriculture Research Center,Dornogovi,44.8824,110.1163,180,27,Very High,Gobi Desert Dryland Zone,Mongolia
+Dalanzadgad,South Gobi Agricultural Research Unit,Umnugovi,43.577,104.425,130,31,Very High,Hyper-Arid Desert Agriculture,Mongolia
+Khovd,Western Mongolia Agricultural Research Farm,Khovd,47.0056,91.6419,220,22,High,Western Steppe Agriculture,Mongolia
+Pullman,USDA-ARS Grain Legume Genetics Center,Washington,46.7298,-117.1817,510,12,Moderate,Pacific Northwest Dryland Agriculture,United States
+Moscow,University of Idaho Research Farm,Idaho,46.7324,-117.0002,580,10.5,Low,Inland Northwest Cropping Zone,United States
+Bozeman,Montana State University Agricultural Research Center,Montana,45.677,-111.0429,470,15,Moderate,Northern Great Plains Dryland Zone,United States
+Fargo,North Dakota State University Research Farm,North Dakota,46.8772,-96.7898,620,9,Low,Northern Pulse Production Belt,United States
+Brookings,South Dakota State University Research Farm,South Dakota,44.3114,-96.7984,610,10,Low,Central Great Plains Agriculture,United States
+Fort Collins,Colorado State University Agricultural Research Station,Colorado,40.5853,-105.0844,380,18,High,High Plains Semi-Arid Agriculture,United States
+Davis,University of California Agricultural Research Center,California,38.5449,-121.7405,470,14,Moderate,California Mediterranean Agriculture,United States
+Lubbock,Texas A&M Agricultural Research Station,Texas,33.5779,-101.8552,490,17.5,Moderate,Southern High Plains Dryland Zone,United States
+Saskatoon,University of Saskatchewan Crop Development Centre,Saskatchewan,52.1579,-106.6702,350,18,High,Canadian Prairie Dryland Agriculture,Canada
+Swift Current,Agriculture and Agri-Food Canada Research Centre,Saskatchewan,50.2881,-107.7939,370,17,Moderate,Semi-Arid Prairie Agriculture,Canada
+Regina,Saskatchewan Pulse Research Institute,Saskatchewan,50.4452,-104.6189,390,16,Moderate,South Prairie Pulse Belt,Canada
+Lethbridge,Agriculture and Agri-Food Canada Research Centre,Alberta,49.6956,-112.8451,420,14,Moderate,Western Prairie Agriculture,Canada
+Brandon,Manitoba Agricultural Research Farm,Manitoba,49.8485,-99.9501,470,12.5,Moderate,Eastern Prairie Agriculture,Canada
+Ciudad Obregon,INIFAP Northwest Research Center,Sonora,27.4864,-109.9408,320,22,High,Sonoran Irrigated Dryland Zone,Mexico
+Culiacan,Sinaloa Agricultural Research Institute,Sinaloa,24.8091,-107.394,790,9,Low,Northwest Coastal Agriculture,Mexico
+Durango,Durango Agricultural Research Station,Durango,24.0277,-104.6532,520,15.5,Moderate,Central Plateau Agriculture,Mexico
+Saltillo,Universidad Autonoma Agraria Antonio Narro,Coahuila,25.4267,-100.9954,360,19.5,High,Northern Semi-Arid Agriculture,Mexico
+Cordoba,INTA Cordoba Agricultural Research Center,Cordoba,-31.4201,-64.1888,760,10,Low,Pampas Agricultural Zone,Argentina
+Tucuman,INTA Experimental Agricultural Station,Tucuman,-26.8083,-65.2176,920,8,Low,Subtropical Agriculture Zone,Argentina
+Salta,Northwest Agricultural Research Institute,Salta,-24.7829,-65.4232,640,12.5,Moderate,Northwest Dryland Agriculture,Argentina
+Bahia Blanca,INTA Bordenave Research Farm,Buenos Aires,-38.7196,-62.2724,590,11.5,Moderate,Southern Pampas Agriculture,Argentina
+Mendoza,Mendoza Agricultural Research Center,Mendoza,-32.8895,-68.8458,230,24,High,Andean Irrigated Dryland Zone,Argentina
+Londrina,Embrapa Soybean Research Center,Parana,-23.3045,-51.1696,1600,5,Low,Subtropical Humid Agriculture,Brazil
+Passo Fundo,Embrapa Wheat Research Center,Rio Grande do Sul,-28.2588,-52.4092,1750,4.5,Low,Southern Grain Production Zone,Brazil
+Goiania,Embrapa Rice and Beans Research Center,Goias,-16.6869,-49.2648,1450,6,Low,Cerrado Agriculture Zone,Brazil
+Campo Grande,Embrapa Beef Cattle Research Center,Mato Grosso do Sul,-20.4697,-54.6201,1350,7,Low,Tropical Savanna Agriculture,Brazil
+Temuco,INIA Carillanca Research Center,Araucania,-38.7359,-72.5904,1200,5,Low,Temperate Southern Agriculture,Chile
+Chillan,INIA Quilamapu Research Center,Nuble,-36.6066,-72.1034,1020,6.5,Low,Central Valley Agriculture,Chile
+La Serena,INIA Intihuasi Research Center,Coquimbo,-29.9027,-71.2519,85,28,Very High,Northern Arid Agriculture,Chile
+Lima,National Agrarian University La Molina,Lima,-12.0464,-77.0428,20,30,Very High,Coastal Desert Agriculture,Peru
+Arequipa,INIA Arequipa Research Center,Arequipa,-16.409,-71.5375,120,25,High,Southern Highland Dryland Zone,Peru
+Cusco,Andean Agricultural Research Institute,Cusco,-13.5319,-71.9675,720,10.5,Moderate,Andean Highland Agriculture,Peru
+Wagga Wagga,NSW Department of Primary Industries Research Centre,New South Wales,-35.1082,147.3598,560,12,Moderate,Australian Mixed Farming Zone,Australia
+Narrabri,Australian Grains Research Institute,New South Wales,-30.3276,149.7821,620,10,Low,Northern Grain Belt,Australia
+Toowoomba,Queensland Agricultural Research Station,Queensland,-27.5598,151.9507,720,8.5,Low,Subtropical Cropping Zone,Australia
+Adelaide,South Australian Research and Development Institute,South Australia,-34.9285,138.6007,530,14,Moderate,Mediterranean Grain Production Zone,Australia
+Merredin,Department of Primary Industries and Regional Development,Western Australia,-31.4829,118.2758,320,22,High,Western Dryland Grain Belt,Australia
+Perth,University of Western Australia Agricultural Research Farm,Western Australia,-31.9505,115.8605,730,8,Low,Coastal Mediterranean Agriculture,Australia
+Tamworth,NSW Agricultural Institute,New South Wales,-31.0905,150.9291,680,9.5,Low,Northern Tablelands Agriculture,Australia

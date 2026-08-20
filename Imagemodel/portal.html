@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RootRot-AI 2.1 | Chickpea Disease Analysis</title>
+    <style>
+        :root { --teal-primary: #008080; --teal-dark: #006666; --bg-light: #f4f7f6; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: var(--bg-light); margin: 0; padding: 20px; color: #333; line-height: 1.6; }
+        .container { max-width: 1100px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 5px 25px rgba(0,0,0,0.1); }
+        
+        /* Header */
+        header { text-align: center; border-bottom: 3px solid var(--teal-primary); padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: var(--teal-primary); margin: 0; font-size: 2.8em; }
+        .version-badge { background: var(--teal-primary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.4em; vertical-align: middle; }
+
+        /* Description Box */
+        .description-box { background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 20px; }
+        h3 { color: var(--teal-primary); border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 0; }
+
+        /* Requirements List */
+        .req-list { list-style: none; padding: 0; }
+        .req-list li { margin-bottom: 12px; padding-left: 30px; position: relative; }
+        .req-list li::before { content: '✔'; position: absolute; left: 0; color: var(--teal-primary); font-weight: bold; }
+
+        /* Metrics Table */
+        .metrics-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin-top: 10px; }
+        .metrics-table th, .metrics-table td { border: 1px solid #eee; padding: 10px; text-align: center; }
+        .metrics-table th { background: var(--teal-primary); color: white; }
+
+        /* Workspace Section */
+        .workspace { background: #eef2f1; padding: 25px; border-radius: 10px; border: 2px dashed var(--teal-primary); }
+        .input-row { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+        .input-group { flex: 1; min-width: 250px; }
+        label { display: block; margin-bottom: 8px; font-weight: bold; }
+        select, input[type="file"] { width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; }
+
+        button { background: var(--teal-primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-size: 1.1em; font-weight: bold; width: 100%; transition: 0.3s; }
+        button:hover { background: var(--teal-dark); }
+        button:disabled { background: #bdc3c7; cursor: not-allowed; }
+        
+        /* Results Section */
+        .results-section { margin-top: 30px; display: none; }
+        .download-link { display: inline-block; margin-top: 15px; color: var(--teal-primary); font-weight: bold; text-decoration: none; }
+        
+        .status-healthy { color: #27ae60; font-weight: bold; }
+        .status-drr { color: #c0392b; font-weight: bold; }
+        .status-invalid { color: #7f8c8d; font-style: italic; }
+
+        /* --- LOADING SPINNER STYLES --- */
+        .loader-overlay {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .spinner {
+            width: 60px; height: 60px;
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid var(--teal-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        .loading-text { font-size: 1.2em; color: var(--teal-primary); font-weight: bold; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+<div id="loader" class="loader-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text" id="loaderText">Initializing AI Models...</div>
+</div>
+
+<div class="container">
+    <header>
+        <h1>RootRot-AI <span class="version-badge">v2.1</span></h1>
+        <p><strong>Online System for Detecting and Assessing Dry Root Rot (DRR) in Chickpea</strong></p>
+    </header>
+
+    <div class="description-box">
+        <h3>System Overview</h3>
+        <p>Root Rot AI 2.1 is specialized for detecting <em>Rhizoctonia bataticola</em> (DRR) in chickpea images. The system utilizes two multitask transformer-based TensorFlow Lite models—one optimized for camera and root scanner modalities, and another for microscope images.</p>
+        
+        <div class="info-grid">
+            <div>
+                <h3>Technical Requirements</h3>
+                <ul class="req-list">
+                    <li><strong>Red Background:</strong> Required for standard camera images.</li>
+                    <li><strong>Blue Background:</strong> Required for root scanner images.</li>
+                    <li><strong>White Background:</strong> Required for microscope images.</li>
+                    <li><strong>Image Integrity:</strong> Backgrounds must be clear of external objects; the model is specialized for plant images only.</li>
+                    <li><strong>Probabilistic Nature:</strong> All predictions are subject to a degree of error.</li>
+                </ul>
+                <a href="https://github.com/scipdatabase/DRR_Disease_Prediction/tree/main/Images" target="_blank" class="download-link">🔗 Link for Sample Images</a>
+            </div>
+            
+            <div>
+                <h3>Model Performance Metrics</h3>
+                <table class="metrics-table">
+                    <thead>
+                        <tr>
+                            <th>Modality</th>
+                            <th>Accuracy</th>
+                            <th>Severity RMSE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Camera</td><td>94%</td><td>0.87</td></tr>
+                        <tr><td>Root Scanner</td><td>85%</td><td>1.49</td></tr>
+                        <tr><td>Microscope</td><td>93%</td><td>1.21</td></tr>
+                    </tbody>
+                </table>
+                <p><small><em>Outputs: 1. DRR Detection | 2. Severity Score (0-5). Score 0 indicates a healthy plant.</em></small></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="workspace">
+        <h3>Diagnosis Workspace</h3>
+        <div class="input-row">
+            <div class="input-group">
+                <label for="modeSelect">Select Modality:</label>
+                <select id="modeSelect">
+                    <option value="camera">Camera (Red Background)</option>
+                    <option value="root_scanner">Root Scanner (Blue Background)</option>
+                    <option value="microscope">Microscope (White Background)</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="imageUpload">Upload Images (Batch):</label>
+                <input type="file" id="imageUpload" multiple accept="image/*">
+            </div>
+        </div>
+        <button id="analyzeBtn" onclick="runAnalysis()">Run Prediction & Generate Report</button>
+    </div>
+
+    <div id="resultsSection" class="results-section">
+        <hr>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3>Analysis Summary</h3>
+            <a id="downloadLink" href="#" style="background: #27ae60; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none;">Download CSV Report</a>
+        </div>
+        <table id="resultsTable" class="metrics-table" style="margin-top:20px;">
+            <thead>
+                <tr>
+                    <th>Image Name</th>
+                    <th>Prediction</th>
+                    <th>Severity Score</th>
+                </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    async function runAnalysis() {
+        const fileInput = document.getElementById('imageUpload');
+        const mode = document.getElementById('modeSelect').value;
+        const resultsBody = document.getElementById('resultsBody');
+        const resultsSection = document.getElementById('resultsSection');
+        const downloadLink = document.getElementById('downloadLink');
+        const loader = document.getElementById('loader');
+        const loaderText = document.getElementById('loaderText');
+        const btn = document.getElementById('analyzeBtn');
+
+        if (fileInput.files.length === 0) { 
+            alert("Please select at least one image file."); 
+            return; 
+        }
+
+        // --- SHOW LOADING SCREEN ---
+        loader.style.display = "flex";
+        loaderText.innerText = `Analyzing ${fileInput.files.length} images... please wait.`;
+        btn.disabled = true;
+        resultsSection.style.display = "none";
+
+        const formData = new FormData();
+        formData.append("mode", mode);
+        for (let i = 0; i < fileInput.files.length; i++) {
+            formData.append("files", fileInput.files[i]);
+        }
+
+        try {
+            // Adjust IP if needed (e.g., http://192.168.x.x:8000)
+            const response = await fetch("http://127.0.0.1:8000/predict_batch", { 
+                method: "POST", 
+                body: formData 
+            });
+
+            if (!response.ok) throw new Error("Server communication failed.");
+
+            const data = await response.json();
+
+            resultsBody.innerHTML = "";
+            data.display_data.forEach(res => {
+                // Apply Styles based on result
+                let styleClass = "status-healthy";
+                if (res.Prediction.includes("DRR")) styleClass = "status-drr";
+                if (res.Prediction.includes("Invalid")) styleClass = "status-invalid";
+
+                resultsBody.innerHTML += `<tr>
+                    <td>${res["Image Name"]}</td>
+                    <td class="${styleClass}">${res["Prediction"]}</td>
+                    <td><strong>${res["Severity Score"]}</strong></td>
+                </tr>`;
+            });
+
+            downloadLink.href = `http://127.0.0.1:8000${data.download_url}`;
+            resultsSection.style.display = "block";
+
+        } catch (error) {
+            console.error(error);
+            alert("Error: " + error.message + "\nEnsure main.py is running.");
+        } finally {
+            // --- HIDE LOADING SCREEN ---
+            loader.style.display = "none";
+            btn.disabled = false;
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+# DRR Portal Chatbot — Python Dependencies
+# Python 3.11 (Windows)
+# Install with: pip install -r requirements.txt
+
+# ── Vector Database ────────────────────────────────────────────────────────
+chromadb==1.5.7
+
+# ── Embeddings ─────────────────────────────────────────────────────────────
+sentence-transformers
+
+# ── LLM APIs ──────────────────────────────────────────────────────────────
+anthropic
+groq
+
+# ── PDF Reading ────────────────────────────────────────────────────────────
+pypdf
+pdfplumber
+
+# ── Web Scraping ───────────────────────────────────────────────────────────
+requests
+beautifulsoup4
+
+# ── Environment ────────────────────────────────────────────────────────────
+python-dotenv
+
+# ── API Server ─────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Jupyter ────────────────────────────────────────────────────────────────
+ipykernel

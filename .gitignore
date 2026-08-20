@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+portal_env/
+
+# Chroma database
+Chatbot/chroma_db/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large AI model files
+*.pth
+*.pt
+*.h5
+
+# Backup files
+*.bak
+*.zip
+*.tar.gz

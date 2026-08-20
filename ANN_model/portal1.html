@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dry Root Rot Disease Scoring App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; padding: 0; }
+    header { background: #1e7f5c; color: white; padding: 15px; text-align: center; }
+    .container { max-width: 600px; margin: 30px auto; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { color: #1e7f5c; margin-top: 0; border-bottom: 2px solid #e9f7f1; padding-bottom: 10px; }
+    label { font-weight: bold; display: block; margin-top: 15px; }
+    input, button { width: 100%; padding: 10px; margin-top: 8px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box; }
+    button { background: #1e7f5c; color: white; font-size: 16px; cursor: pointer; border: none; margin-top: 20px; transition: 0.3s; }
+    button:hover { background: #16644a; }
+    .result { margin-top: 20px; padding: 15px; background: #e9f7f1; border-left: 5px solid #1e7f5c; min-height: 50px; }
+    .section-divider { margin: 40px 0; border-top: 2px dashed #ccc; }
+    footer { text-align: center; margin-top: 30px; color: #777; font-size: 14px; padding-bottom: 20px; }
+    .small-text { font-size: 12px; color: #666; margin-top: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dry Root Rot Disease Scoring System</h1>
+</header>
+
+<div class="container">
+  <h2>Individual Prediction</h2>
+
+  <label for="rainf">Rainfall (RainF)</label>
+  <input type="number" id="rainf" step="0.01" placeholder="e.g. 10.5">
+
+  <label for="maxt">Maximum Temperature (MaxT)</label>
+  <input type="number" id="maxt" step="0.1" placeholder="e.g. 35.0">
+
+  <label for="mint">Minimum Temperature (MinT)</label>
+  <input type="number" id="mint" step="0.1" placeholder="e.g. 22.5">
+
+  <button onclick="getPrediction()">Submit for Scoring</button>
+
+  <div class="result">
+    <strong>Result:</strong>
+    <p id="displayResult">Disease Score will appear here.</p>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <h2>Bulk Prediction (CSV / Excel)</h2>
+  <p class="small-text">Upload a file containing columns: <b>RainF, MaxT, MinT</b></p>
+  <input type="file" id="csvFile" accept=".csv,.xlsx">
+  <button onclick="uploadCSV()" style="background: #2c3e50;">Process & Download Results</button>
+
+  <div id="csvStatus" style="margin-top: 10px; font-size: 14px; color: #1e7f5c;"></div>
+</div>
+
+<footer>© 2026 Dry Root Rot Scoring App</footer>
+
+<script>
+// Single row prediction
+async function getPrediction() {
+  const rain = document.getElementById('rainf').value;
+  const max  = document.getElementById('maxt').value;
+  const min  = document.getElementById('mint').value;
+  const resultDisplay = document.getElementById('displayResult');
+
+  if (!rain || !max || !min) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  resultDisplay.innerText = "Processing...";
+
+  try {
+    const response = await fetch(`http://127.0.0.1:8000/predict?RainF=${rain}&MaxT=${max}&MinT=${min}`);
+    if (!response.ok) throw new Error(await response.text());
+    const data = await response.json();
+    resultDisplay.innerHTML = `<strong>Predicted DI: ${data.DiseaseScore}</strong>`;
+  } catch (error) {
+    console.error(error);
+    resultDisplay.innerText = "Error: " + error.message;
+  }
+}
+
+// CSV / Excel upload
+async function uploadCSV() {
+  const fileInput = document.getElementById('csvFile');
+  const status = document.getElementById('csvStatus');
+
+  if (fileInput.files.length === 0) {
+    alert("Please select a CSV or Excel file first.");
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append("file", fileInput.files[0]);
+
+  status.innerText = "Processing file... Please wait.";
+
+  try {
+    const response = await fetch('http://127.0.0.1:8000/predict_csv', {
+      method: 'POST',
+      body: formData
+    });
+
+    if (!response.ok) throw new Error(await response.text());
+
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = "DI_Predictions_Result.csv";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    status.innerText = "Success! Your result file has been downloaded.";
+  } catch (error) {
+    console.error(error);
+    status.innerText = "Error processing file: " + error.message;
+  }
+}
+</script>
+
+</body>
+</html>
