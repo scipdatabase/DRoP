@@ -1,6 +1,6 @@
 # DRoP – Dry Root Rot Portal
 
-**DRoP (Dry Root Rot Portal)** is a web-based scientific knowledge repository dedicated to **Dry Root Rot (DRR) of chickpea (*Cicer arietinum*)**, primarily caused by the necrotrophic fungal pathogen *Macrophomina phaseolina*.
+**DRoP (Dry Root Rot Portal)** is a web-based scientific knowledge repository dedicated to Dry Root Rot (DRR) of chickpea (*Cicer arietinum*), primarily caused by the necrotrophic fungal pathogen *Macrophomina phaseolina*.
 
 DRoP brings together curated scientific information, experimental resources, datasets, computational tools, and AI-based applications related to DRR. The portal is designed to support researchers, plant pathologists, breeders, students, and other users working on Dry Root Rot disease.
 
